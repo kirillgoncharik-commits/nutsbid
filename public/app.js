@@ -61,10 +61,17 @@
     link.addEventListener("click", () => track("language_change", { from_locale: config.locale, to_locale: link.hreflang }));
   });
 
+  const revealElements = [...document.querySelectorAll(".reveal")];
+  const showReveal = (element) => { element.classList.add("is-visible"); reveal.unobserve(element); };
   const reveal = new IntersectionObserver((entries) => entries.forEach((entry) => {
-    if (entry.isIntersecting) { entry.target.classList.add("is-visible"); reveal.unobserve(entry.target); }
-  }), { threshold: .12, rootMargin: "0px 0px -35px" });
-  document.querySelectorAll(".reveal").forEach((element) => reveal.observe(element));
+    if (entry.isIntersecting) showReveal(entry.target);
+  }), { threshold: .08, rootMargin: "0px 0px -20px" });
+  revealElements.forEach((element) => reveal.observe(element));
+  const revealPassedContent = () => revealElements.forEach((element) => {
+    if (!element.classList.contains("is-visible") && element.getBoundingClientRect().top < window.innerHeight * 1.08) showReveal(element);
+  });
+  window.addEventListener("scroll", revealPassedContent, { passive: true });
+  requestAnimationFrame(revealPassedContent);
 
   const eventSections = new IntersectionObserver((entries) => entries.forEach((entry) => {
     if (!entry.isIntersecting) return;

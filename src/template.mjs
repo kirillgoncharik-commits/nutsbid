@@ -43,6 +43,7 @@ function head(copy, canonical, gaId, noindex = false) {
   <meta name="ga-measurement-id" content="${esc(gaId)}">
   <link rel="icon" href="/brand/nuts-games-logo.webp" type="image/webp">
   <link rel="stylesheet" href="/styles.css">
+  <noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
   <script type="application/ld+json">${json({ "@context": "https://schema.org", "@type": "Organization", name: "Nuts Games", url: site, logo: `${site}/brand/nuts-games-logo.png`, founder: { "@type": "Person", name: "Kirill Goncharik", sameAs: "https://www.linkedin.com/in/kirill-goncharik/" }, description: englishDescription() })}</script>
 </head>`;
 }
