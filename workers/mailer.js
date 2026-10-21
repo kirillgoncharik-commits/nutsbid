@@ -44,7 +44,10 @@ export default {
       });
       return json({ ok: true, messageId: result?.messageId || null });
     } catch (error) {
-      console.error("Nuts Games inquiry delivery failed", error);
+      console.error("Nuts Games inquiry delivery failed", {
+        code: error?.code || "UNKNOWN",
+        message: error?.message || String(error)
+      });
       return json({ ok: false, code: "DELIVERY_FAILED" }, 502);
     }
   }
