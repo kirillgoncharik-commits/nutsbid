@@ -28,7 +28,14 @@ These are capability statements, not guarantees. Each commercial proposal must n
 - A functioning destination for `hello@nuts.bid`, including inbound routing and any outbound sender.
 - Any public statement that KONTORA GAMES is a delivery partner on a specific project. Existing records support a possible/project-based relationship, not an exclusive or permanent partnership.
 - Current in-house headcount, simultaneous production capacity, fixed rates or guaranteed timelines.
-- GA4 property/stream ID, Google Search Console property and Cloudflare account configuration.
+- Google Search Console property and Cloudflare account configuration.
+
+## Analytics configuration
+
+- GA4 account: `Nuts Games`.
+- GA4 property: `Nuts Games — nuts.bid`.
+- Production web stream: `Nuts Games — Production` for `https://nuts.bid`.
+- Measurement ID: `G-HETCM80ZLX`.
 - Permission to publish named clients, client logos, portfolio images, project budgets or NDA-covered work.
 
 ## Not suitable for publication

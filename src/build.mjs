@@ -6,7 +6,7 @@ import { renderPage, renderPrivacy } from "./template.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dist = join(root, "dist");
-const gaId = process.env.GA_MEASUREMENT_ID || "";
+const gaId = process.env.GA_MEASUREMENT_ID || "G-HETCM80ZLX";
 
 await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });

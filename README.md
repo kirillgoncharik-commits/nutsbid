@@ -49,7 +49,7 @@ Cloudflare Email Routing provides inbound forwarding only; it is not outbound SM
 
 ## GA4 and consent
 
-Set `GA_MEASUREMENT_ID` as a build variable. GA4 is not loaded until the visitor allows analytics. Implemented events:
+The production GA4 stream uses measurement ID `G-HETCM80ZLX`. Override it with the optional `GA_MEASUREMENT_ID` build variable when deploying another environment. GA4 is not loaded until the visitor allows analytics. Implemented events:
 
 - `page_view` (GA4 config)
 - `language_change`
