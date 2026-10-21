@@ -11,6 +11,7 @@ Updated: 21 October 2026. This document separates public-ready facts from claims
 - Public Clutch material supports Nord Beaver’s 2020 founding, HTML5 positioning and full-cycle game development claim. These are historical Nord Beaver facts, not Nuts Games results.
 - The connected project records describe Natalia as the production partner for the initial outsourced art direction. No public title or detailed CV is yet verified.
 - The site may truthfully offer discovery, scoping, estimation and production coordination. Specific capacity, rates and delivery dates must be confirmed for each brief.
+- `hello@nuts.bid` is an active Cloudflare Email Routing address forwarding to the verified receiving mailbox. Website inquiries use a private Cloudflare Worker service binding and the same verified destination.
 
 ## Proposed public positioning
 
@@ -25,10 +26,16 @@ These are capability statements, not guarantees. Each commercial proposal must n
 
 - Natalia’s public name spelling, title, biography, portrait and exact responsibilities.
 - The legal entity acting as data controller and contracting party for Nuts Games.
-- A functioning destination for `hello@nuts.bid`, including inbound routing and any outbound sender.
 - Any public statement that KONTORA GAMES is a delivery partner on a specific project. Existing records support a possible/project-based relationship, not an exclusive or permanent partnership.
 - Current in-house headcount, simultaneous production capacity, fixed rates or guaranteed timelines.
 - Google Search Console property and Cloudflare account configuration.
+
+## Production configuration
+
+- Canonical site: `https://nuts.bid` on Cloudflare Pages project `nuts-games`.
+- Source repository: `kirillgoncharik-commits/nutsbid`, production branch `main`.
+- Contact delivery Worker: `nuts-games-mailer`; it has no public route and is called only through the Pages service binding `MAILER`.
+- Inbound address: `hello@nuts.bid`; Cloudflare Email Routing forwards it to the verified destination mailbox.
 
 ## Analytics configuration
 

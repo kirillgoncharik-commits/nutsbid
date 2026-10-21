@@ -133,7 +133,7 @@ export function renderPage(copy, gaId = "") {
         <div class="field-row"><label><span>${esc(copy.form.budget)}</span><select name="budget"><option value="">${esc(copy.form.select)}</option>${copy.form.budgets.map((option) => `<option>${esc(option)}</option>`).join("")}</select></label><label><span>${esc(copy.form.timeline)}</span><input name="timeline" maxlength="120"></label></div>
         <label class="consent"><input type="checkbox" name="consent" required><span>${esc(copy.form.consent)} <a href="${esc(localeHref(copy.code, "privacy/"))}">${esc(copy.privacyLink)}</a></span></label>
         <button class="button form-submit" type="submit">${esc(copy.form.submit)} <b>↗</b></button><p class="form-status" data-form-status role="status" aria-live="polite"></p>
-        <p class="alt-contact">${esc(copy.altContact)} <a href="https://www.linkedin.com/in/kirill-goncharik/" rel="noopener noreferrer" target="_blank" data-event="linkedin_click">LinkedIn ↗</a></p>
+        <p class="alt-contact"><a href="mailto:hello@nuts.bid" data-event="email_click">hello@nuts.bid</a> · ${esc(copy.altContact)} <a href="https://www.linkedin.com/in/kirill-goncharik/" rel="noopener noreferrer" target="_blank" data-event="linkedin_click">LinkedIn ↗</a></p>
       </form>
     </section>
   </main>

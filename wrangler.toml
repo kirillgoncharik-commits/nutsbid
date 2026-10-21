@@ -4,3 +4,7 @@ pages_build_output_dir = "./dist"
 
 [vars]
 ALLOWED_ORIGINS = "https://nuts.bid,https://www.nuts.bid"
+
+[[services]]
+binding = "MAILER"
+service = "nuts-games-mailer"

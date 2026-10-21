@@ -21,6 +21,7 @@ The local site is served at `http://localhost:4173`.
 - `src/build.mjs` — produces `dist/`, routes, sitemap, robots and security headers.
 - `public/` — approved brand and original illustrative assets, CSS and client-side behaviour.
 - `functions/api/contact.js` — validated, honeypot-protected inquiry delivery.
+- `workers/mailer.js` — private Cloudflare Worker used through a service binding to send inquiries to the verified mailbox.
 - `docs/source-of-truth.md` — publication-safe facts and approval gaps.
 - `docs/nuttish-bible.md` — vocabulary and grammar for the invented language.
 
@@ -37,15 +38,14 @@ The domain must use `nuts.bid` as canonical. Redirect `www.nuts.bid` to the apex
 
 ## Contact form configuration
 
-The form deliberately returns `503 FORM_NOT_CONFIGURED` until delivery is configured. Set these encrypted/environment values in Cloudflare Pages:
+Production uses two Cloudflare bindings:
 
-- `RESEND_API_KEY` — secret.
-- `CONTACT_TO` — verified receiving mailbox.
-- `CONTACT_FROM` — verified sender such as `Nuts Games <website@nuts.bid>`.
-- `TURNSTILE_SECRET_KEY` — optional secret; when set, add the client token flow before enabling it.
-- `ALLOWED_ORIGINS` — comma-separated production origins; already declared for apex and `www`.
+- Pages service binding `MAILER` → Worker `nuts-games-mailer`.
+- Worker email binding `EMAIL` plus dashboard variable `CONTACT_TO` → the verified destination mailbox.
 
-Cloudflare Email Routing provides inbound forwarding only; it is not outbound SMTP. Verify an outbound provider/domain before presenting `hello@nuts.bid` as a working reply address.
+The Worker has no public route and can send only to addresses already verified in the Cloudflare account. `hello@nuts.bid` is also an active Email Routing address for inbound replies. `TURNSTILE_SECRET_KEY` remains optional; when set, add the client token flow before enabling it. `ALLOWED_ORIGINS` is already declared for the production origins.
+
+The legacy Resend variables (`RESEND_API_KEY`, `CONTACT_TO`, `CONTACT_FROM`) remain supported as a fallback, but are not required for the Cloudflare delivery path.
 
 ## GA4 and consent
 

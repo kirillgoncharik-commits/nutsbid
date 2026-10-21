@@ -1,0 +1,8 @@
+name = "nuts-games-mailer"
+main = "./mailer.js"
+compatibility_date = "2026-10-21"
+workers_dev = false
+keep_vars = true
+
+[[send_email]]
+name = "EMAIL"

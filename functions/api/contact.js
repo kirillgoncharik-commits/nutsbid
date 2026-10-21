@@ -48,19 +48,28 @@ export async function onRequestPost({ request, env }) {
   const turnstileOk = await verifyTurnstile(input.turnstileToken, request.headers.get("CF-Connecting-IP"), env.TURNSTILE_SECRET_KEY);
   if (!turnstileOk) return json({ ok: false, code: "BOT_CHECK" }, 403);
 
-  if (!env.RESEND_API_KEY || !env.CONTACT_TO || !env.CONTACT_FROM) return json({ ok: false, code: "FORM_NOT_CONFIGURED" }, 503);
-
   const subject = `[nuts.bid] ${data.project} — ${data.company || data.name}`;
   const lines = [
     `Name: ${data.name}`, `Work email: ${data.email}`, `Company: ${data.company || "—"}`, `Project: ${data.project}`,
     `Budget: ${data.budget || "—"}`, `Timeline: ${data.timeline || "—"}`, `Locale: ${data.locale || "—"}`, "", "Brief:", data.details
   ];
   const html = `<h2>New Nuts Games inquiry</h2>${lines.map((line) => line ? `<p>${escapeHtml(line)}</p>` : "<hr>").join("")}`;
-  const response = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: { authorization: `Bearer ${env.RESEND_API_KEY}`, "content-type": "application/json" },
-    body: JSON.stringify({ from: env.CONTACT_FROM, to: [env.CONTACT_TO], reply_to: data.email, subject, text: lines.join("\n"), html })
-  });
+  let response;
+  if (env.MAILER) {
+    response = await env.MAILER.fetch("https://mailer.internal/contact", {
+      method: "POST",
+      headers: { "content-type": "application/json", "accept": "application/json" },
+      body: JSON.stringify({ replyTo: data.email, subject, text: lines.join("\n"), html })
+    });
+  } else if (env.RESEND_API_KEY && env.CONTACT_TO && env.CONTACT_FROM) {
+    response = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: { authorization: `Bearer ${env.RESEND_API_KEY}`, "content-type": "application/json" },
+      body: JSON.stringify({ from: env.CONTACT_FROM, to: [env.CONTACT_TO], reply_to: data.email, subject, text: lines.join("\n"), html })
+    });
+  } else {
+    return json({ ok: false, code: "FORM_NOT_CONFIGURED" }, 503);
+  }
   if (!response.ok) return json({ ok: false, code: "DELIVERY_FAILED" }, 502);
   return json({ ok: true });
 }
