@@ -1,0 +1,6 @@
+name = "nuts-games"
+compatibility_date = "2026-10-21"
+pages_build_output_dir = "./dist"
+
+[vars]
+ALLOWED_ORIGINS = "https://nuts.bid,https://www.nuts.bid"

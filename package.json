@@ -1,0 +1,14 @@
+{
+  "name": "nuts-games-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "check": "node src/check.mjs",
+    "dev": "npm run build && python3 -m http.server 4173 -d dist"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
