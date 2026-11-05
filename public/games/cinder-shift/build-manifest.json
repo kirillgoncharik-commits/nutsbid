@@ -1,7 +1,7 @@
 {
   "game_id": "r01",
-  "build_id": "0.2.0-m02.1",
-  "source_sha": "e56e077206a304a4e1b3177a6526ff51e41003b8",
+  "build_id": "0.2.0-m02.2",
+  "source_sha": "0787308ed5b45b8531e0f8dbf2171744eeaf54e5",
   "source_dirty": false,
   "stage": "M02 first mission",
   "files": [
@@ -12,10 +12,10 @@
       "sha256": "4a7444969ba54b6c630566fb85edc3baa6a4ada70721e40648afef159c5625cd"
     },
     {
-      "path": "assets/index-CUkQ4YXB.js",
-      "bytes": 1230239,
-      "gzip_bytes": 329469,
-      "sha256": "4352f18104aa2f826fc275fcc1de0e10f39a93544660831d68d35f4e717d71a5"
+      "path": "assets/index-ChiRxU4I.js",
+      "bytes": 1230271,
+      "gzip_bytes": 329498,
+      "sha256": "3399ea198c60cc7edc6790b1d50bba8e86e33b863a6127412a069e0ed25b05e8"
     },
     {
       "path": "boot-guard.js",
@@ -26,10 +26,10 @@
     {
       "path": "index.html",
       "bytes": 5142,
-      "gzip_bytes": 2221,
-      "sha256": "beb9a804f07be4d633463e4a34647255aa7315e8e872d0de30bffb1e1fb84fbb"
+      "gzip_bytes": 2219,
+      "sha256": "818ac99d2d4d13a2dff40b7e9f165a63cef61fb3b52944a60ca080b7048d04a5"
     }
   ],
-  "total_bytes": 1244992,
-  "total_gzip_bytes": 334790
+  "total_bytes": 1245024,
+  "total_gzip_bytes": 334817
 }
