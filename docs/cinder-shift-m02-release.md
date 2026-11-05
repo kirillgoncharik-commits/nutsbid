@@ -1,6 +1,6 @@
 # Cinder Shift M02 preview candidate
 
-Build 0.2.0-m02.2, clean game source 0787308ed5b45b8531e0f8dbf2171744eeaf54e5. The copied manifest pins all file hashes, sizes and the M02 stage. The artifact is built from that exact checkout and contains the three-room Airlock mission, walker and drone combat, HP, a held power objective, victory/death and retry. The original control room is available separately.
+Build 0.2.0-m02.2, clean game source 826f27a11bcde7ad56c69146394f36767ec3f5ec. The copied manifest pins all file hashes, sizes and the M02 stage. The artifact is built from that exact checkout and contains the three-room Airlock mission, walker and drone combat, HP, a held power objective, victory/death and retry. The original control room is available separately.
 
 Local verification: 22 checks passed across Chrome, Firefox and WebKit, including a native-touch-event mission completion in mobile emulation, 30/60 render limits, long frame handling, focus regression, room memory, damage and retry. The menu-exit result was then checked with ten browser restarts. WebKit is not physical Safari acceptance. Android, iPhone, Safari macOS and physical gamepad acceptance remain open.
 
