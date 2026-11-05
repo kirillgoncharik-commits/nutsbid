@@ -1,0 +1,35 @@
+{
+  "game_id": "r01",
+  "build_id": "0.1.0-m0.1",
+  "source_sha": "e3551eeff51c4ce4e1eb0f0a27d976158d28ee27",
+  "source_dirty": false,
+  "stage": "M0 technical preview",
+  "files": [
+    {
+      "path": "assets/index-BgNpPEpI.js",
+      "bytes": 1216404,
+      "gzip_bytes": 324562,
+      "sha256": "80950be4a493a2cf44cd06806b0daa5429624f1d786c8a250417a6f6d5f4af54"
+    },
+    {
+      "path": "assets/index-DLv3q7vj.css",
+      "bytes": 8332,
+      "gzip_bytes": 2486,
+      "sha256": "9e409b18562b7987d77ed0c8d7aa25ae54262194290175ee95799933f5400807"
+    },
+    {
+      "path": "boot-guard.js",
+      "bytes": 1069,
+      "gzip_bytes": 579,
+      "sha256": "e25606d30f9f7123ad00293a154139aeb7dd70ff9ba10c2e47a24b94d9978cce"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5063,
+      "gzip_bytes": 2193,
+      "sha256": "6fd8b27b50235e988f4b67f2e5d915443259a5a6a69a6a91f2f3701615c50b94"
+    }
+  ],
+  "total_bytes": 1230868,
+  "total_gzip_bytes": 329820
+}
