@@ -1,4 +1,4 @@
-import { cp, mkdir, rm, writeFile } from "node:fs/promises";
+import { appendFile, cp, mkdir, rm, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { localeOrder, locales } from "./content.mjs";
@@ -29,4 +29,7 @@ await writeFile(join(dist, "robots.txt"), "User-agent: *\nAllow: /\nDisallow: /c
 await writeFile(join(dist, "_headers"), "/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n/brand/*\n  Cache-Control: public, max-age=31536000, immutable\n/art/*\n  Cache-Control: public, max-age=31536000, immutable\n/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'\n");
 
 console.log(`Built ${localeOrder.length} locales in ${dist}`);
+
+// HTML and build provenance must revalidate while hashed game assets are immutable.
+await appendFile(join(dist, '_headers'), '/games/\n  Cache-Control: no-cache\n/games/cinder-shift/\n  Cache-Control: no-cache\n/games/cinder-shift/index.html\n  Cache-Control: no-cache\n/games/cinder-shift/build-manifest.json\n  Cache-Control: no-cache\n/games/cinder-shift/boot-guard.js\n  Cache-Control: no-cache\n/games/cinder-shift/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n');
 
