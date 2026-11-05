@@ -1,21 +1,99 @@
 {
   "game_id": "r01",
-  "build_id": "0.2.0-m02.2",
-  "source_sha": "826f27a11bcde7ad56c69146394f36767ec3f5ec",
+  "build_id": "0.3.0-m03.1",
+  "source_sha": "a508e8dfbb1cf5bd3d4d07d4c45daf329acad919",
   "source_dirty": false,
-  "stage": "M02 first mission",
+  "stage": "M03 art and UI",
   "files": [
     {
-      "path": "assets/index--hr1EVsF.css",
-      "bytes": 8542,
-      "gzip_bytes": 2521,
-      "sha256": "4a7444969ba54b6c630566fb85edc3baa6a4ada70721e40648afef159c5625cd"
+      "path": "assets/index-8RURc0we.css",
+      "bytes": 10375,
+      "gzip_bytes": 2760,
+      "sha256": "ca55037f0af83a5c28c6ec2be6285529cf1967ecf40b2505f22829c6315a499d"
     },
     {
-      "path": "assets/index-Ds8xUa51.js",
-      "bytes": 1230255,
-      "gzip_bytes": 329494,
-      "sha256": "49682f63c04a5af731251529e496c2857b964e7eb099fcbdc401ab5c31fe704d"
+      "path": "assets/index-DXzQudCJ.js",
+      "bytes": 1241624,
+      "gzip_bytes": 332275,
+      "sha256": "ba228042e39b423888a32d0be2b78f142df950286317d4f017e9faeaff872366"
+    },
+    {
+      "path": "assets/m03/architecture-a-f525a20314.png",
+      "bytes": 12454,
+      "gzip_bytes": 11579,
+      "sha256": "f525a2031410b89705a49bcc1a29e9fedf7e984018e38db85b5751f122fc1f58"
+    },
+    {
+      "path": "assets/m03/architecture-b-034c9862b9.png",
+      "bytes": 22585,
+      "gzip_bytes": 22077,
+      "sha256": "034c9862b9e898969165acc4d8808b0c21e63adbbef064310a2a913e318d86db"
+    },
+    {
+      "path": "assets/m03/architecture-c-60ca9a0761.png",
+      "bytes": 29006,
+      "gzip_bytes": 28270,
+      "sha256": "60ca9a07613ec99cae501e8c45dc97fc1ae642f48aa96405bf84a85ad3ed88ef"
+    },
+    {
+      "path": "assets/m03/asset-index.json",
+      "bytes": 19013,
+      "gzip_bytes": 2599,
+      "sha256": "cd08064aa412dd123f8186c2f723c795fe90c5da7b89c99683a2b6955f01b3fd"
+    },
+    {
+      "path": "assets/m03/bg-far-38b50b95a8.png",
+      "bytes": 12940,
+      "gzip_bytes": 12288,
+      "sha256": "38b50b95a8c7b8d67a53a10b8d9c2ddaf477cc5d1d85f08898fa0cca370b6e52"
+    },
+    {
+      "path": "assets/m03/enemies-atlas-203e8fbe25.png",
+      "bytes": 1516,
+      "gzip_bytes": 1525,
+      "sha256": "203e8fbe2593ebc4ae64c5156c723acd861c804cc3f003f1eee8881fe585e1ce"
+    },
+    {
+      "path": "assets/m03/enemies-atlas-8d6cc6288e.json",
+      "bytes": 2251,
+      "gzip_bytes": 393,
+      "sha256": "8d6cc6288ef6ebe7a298bac1484017b01ec56aae0caf484189c27cb7661518d5"
+    },
+    {
+      "path": "assets/m03/environment-atlas-0d06cf6453.png",
+      "bytes": 1022,
+      "gzip_bytes": 1041,
+      "sha256": "0d06cf6453ad4a086414150bdf87f32960e65759551780646406bc2105e2012c"
+    },
+    {
+      "path": "assets/m03/environment-atlas-43e2f17290.json",
+      "bytes": 3227,
+      "gzip_bytes": 361,
+      "sha256": "43e2f17290f2426b2a3f3f5cfc6d59480edd98ae5789560188bbebc2902bf2a3"
+    },
+    {
+      "path": "assets/m03/mira-atlas-7a094b4190.json",
+      "bytes": 2575,
+      "gzip_bytes": 415,
+      "sha256": "7a094b4190e357ca851b2d5b1f16cd92789a079af98a65c85c30d5ce571135f9"
+    },
+    {
+      "path": "assets/m03/mira-atlas-abfe2eb1c3.png",
+      "bytes": 1196,
+      "gzip_bytes": 1219,
+      "sha256": "abfe2eb1c390feecd2d4a45268695d183468a7862396b53da302d04bc4dde4fe"
+    },
+    {
+      "path": "assets/m03/props-atlas-0235c052a8.png",
+      "bytes": 4552,
+      "gzip_bytes": 4324,
+      "sha256": "0235c052a82f5280cdd0edd5b0594cbfeb092791909a321c8dce7b7695df1c18"
+    },
+    {
+      "path": "assets/m03/props-atlas-9a4e8d231b.json",
+      "bytes": 3906,
+      "gzip_bytes": 473,
+      "sha256": "9a4e8d231bd87b8298776b40552dc32bb358b7e6880a102889308cbfa613d0c4"
     },
     {
       "path": "boot-guard.js",
@@ -25,11 +103,11 @@
     },
     {
       "path": "index.html",
-      "bytes": 5142,
-      "gzip_bytes": 2219,
-      "sha256": "e85aa47b2ed01d5e048ebfbdeec2191cce926b694d30c076e133aa0c09ea6f47"
+      "bytes": 5709,
+      "gzip_bytes": 2393,
+      "sha256": "6a4a7d34c860adacf6a4091abce38bef92bc17ad474f9aa687c7225883bebf47"
     }
   ],
-  "total_bytes": 1245008,
-  "total_gzip_bytes": 334813
+  "total_bytes": 1375020,
+  "total_gzip_bytes": 424571
 }
