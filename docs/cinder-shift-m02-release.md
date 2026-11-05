@@ -6,7 +6,7 @@ Local verification: 22 checks passed across Chrome, Firefox and WebKit, includin
 
 Known design limit: the scripted learned route takes about 25 seconds, below the requested 3–6 minutes. Human playtests and a decision on mission scope or the time target are required before M02 acceptance. This publication is a playable preview, not a completed acceptance claim.
 
-Only the game artifact, its catalogue text and this release record are changed. Existing locale pages, form/mail code, consent, DNS, domain routing and security headers are unchanged. External game telemetry remains disabled. Existing game cache headers revalidate HTML, boot guard and manifest while retaining immutable hashed assets.
+Only the game artifact, its catalogue text and this release record are changed. Existing locale pages, form/mail code, consent, DNS, domain routing and security headers are unchanged. External game telemetry remains disabled. Prior hashed bundles are retained for old HTML responses across updates. Existing game cache headers revalidate HTML, boot guard and manifest while retaining immutable hashed assets.
 
 Publication checks: publish through a reviewed site commit, wait for Cloudflare Pages success, and verify the final HTML title, manifest, every resource hash and a complete start-to-exit run at https://nuts.bid/games/cinder-shift/ . An HTTP 200 alone is not acceptance.
 
