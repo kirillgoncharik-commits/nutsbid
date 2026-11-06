@@ -1,21 +1,21 @@
 {
   "game_id": "r01",
-  "build_id": "0.3.0-m03.1",
-  "source_sha": "a508e8dfbb1cf5bd3d4d07d4c45daf329acad919",
+  "build_id": "0.4.0-m04.1",
+  "source_sha": "789d8a4c2dc66cfb666cae3bd6b6d5ea0590c532",
   "source_dirty": false,
-  "stage": "M03 art and UI",
+  "stage": "M04 session, UI and EN/RU",
   "files": [
     {
-      "path": "assets/index-8RURc0we.css",
-      "bytes": 10375,
-      "gzip_bytes": 2760,
-      "sha256": "ca55037f0af83a5c28c6ec2be6285529cf1967ecf40b2505f22829c6315a499d"
+      "path": "assets/index-CzkjurUV.css",
+      "bytes": 12384,
+      "gzip_bytes": 3290,
+      "sha256": "a897464e3920d4d801dfd290ca09351734f9eaf0792cb9e46c516703fd5aa9a7"
     },
     {
-      "path": "assets/index-DXzQudCJ.js",
-      "bytes": 1241624,
-      "gzip_bytes": 332275,
-      "sha256": "ba228042e39b423888a32d0be2b78f142df950286317d4f017e9faeaff872366"
+      "path": "assets/index-DqU7vmp1.js",
+      "bytes": 1303383,
+      "gzip_bytes": 350618,
+      "sha256": "824a2fbfd22124a00ebfede8bacc8168653e9af0293cbc39879398c23d3be548"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -37,9 +37,9 @@
     },
     {
       "path": "assets/m03/asset-index.json",
-      "bytes": 19013,
-      "gzip_bytes": 2599,
-      "sha256": "cd08064aa412dd123f8186c2f723c795fe90c5da7b89c99683a2b6955f01b3fd"
+      "bytes": 19536,
+      "gzip_bytes": 2668,
+      "sha256": "e7dc2496b40901ce5083fcc3d08dc148ff7bedf753e7f3a7778f7de2ab42148c"
     },
     {
       "path": "assets/m03/bg-far-38b50b95a8.png",
@@ -72,42 +72,42 @@
       "sha256": "43e2f17290f2426b2a3f3f5cfc6d59480edd98ae5789560188bbebc2902bf2a3"
     },
     {
-      "path": "assets/m03/mira-atlas-7a094b4190.json",
+      "path": "assets/m03/mira-atlas-97683f34b7.png",
+      "bytes": 1187,
+      "gzip_bytes": 1210,
+      "sha256": "97683f34b7c0d29383f5dd4732cb4dbdc6cb16a56b7f9bdde129cd08836dd9e2"
+    },
+    {
+      "path": "assets/m03/mira-atlas-dbe2bac34f.json",
       "bytes": 2575,
       "gzip_bytes": 415,
-      "sha256": "7a094b4190e357ca851b2d5b1f16cd92789a079af98a65c85c30d5ce571135f9"
+      "sha256": "dbe2bac34f1b2578969c615c97654d1a9775f1c057d2bea98d54394ccf838628"
     },
     {
-      "path": "assets/m03/mira-atlas-abfe2eb1c3.png",
-      "bytes": 1196,
-      "gzip_bytes": 1219,
-      "sha256": "abfe2eb1c390feecd2d4a45268695d183468a7862396b53da302d04bc4dde4fe"
+      "path": "assets/m03/props-atlas-2a48216610.png",
+      "bytes": 4813,
+      "gzip_bytes": 4594,
+      "sha256": "2a48216610ca2b0c314a82af3ac0e0bfd9a8413f442cd3970129cebc78dd7373"
     },
     {
-      "path": "assets/m03/props-atlas-0235c052a8.png",
-      "bytes": 4552,
-      "gzip_bytes": 4324,
-      "sha256": "0235c052a82f5280cdd0edd5b0594cbfeb092791909a321c8dce7b7695df1c18"
-    },
-    {
-      "path": "assets/m03/props-atlas-9a4e8d231b.json",
-      "bytes": 3906,
-      "gzip_bytes": 473,
-      "sha256": "9a4e8d231bd87b8298776b40552dc32bb358b7e6880a102889308cbfa613d0c4"
+      "path": "assets/m03/props-atlas-76394b1d49.json",
+      "bytes": 4244,
+      "gzip_bytes": 505,
+      "sha256": "76394b1d49fba662e137cddd0670216bcbfb39be8ab76d2bd8dcd2dbc4813203"
     },
     {
       "path": "boot-guard.js",
-      "bytes": 1069,
-      "gzip_bytes": 579,
-      "sha256": "e25606d30f9f7123ad00293a154139aeb7dd70ff9ba10c2e47a24b94d9978cce"
+      "bytes": 4108,
+      "gzip_bytes": 1824,
+      "sha256": "c79ebc17eb3017fdab6741204bfb26f3de30dd284b8ba9e60af496d73c9a7a55"
     },
     {
       "path": "index.html",
-      "bytes": 5709,
-      "gzip_bytes": 2393,
-      "sha256": "6a4a7d34c860adacf6a4091abce38bef92bc17ad474f9aa687c7225883bebf47"
+      "bytes": 3907,
+      "gzip_bytes": 1388,
+      "sha256": "3e4ae7b5fbbb28fe0ee3ed1d7d77b11fa95d12a86ce19ab14c3e338d93c97a8a"
     }
   ],
-  "total_bytes": 1375020,
-  "total_gzip_bytes": 424571
+  "total_bytes": 1441138,
+  "total_gzip_bytes": 444046
 }
