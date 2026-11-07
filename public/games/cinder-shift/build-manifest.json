@@ -1,21 +1,153 @@
 {
   "game_id": "r01",
-  "build_id": "0.4.0-m04.1",
-  "source_sha": "789d8a4c2dc66cfb666cae3bd6b6d5ea0590c532",
+  "build_id": "0.5.0-m05a.1",
+  "source_sha": "b450c6e441bd7b4729f47fcb7d7f22cf4740bf79",
   "source_dirty": false,
-  "stage": "M04 session, UI and EN/RU",
+  "stage": "M05A workshop, feedback and audio",
   "files": [
     {
-      "path": "assets/index-CzkjurUV.css",
-      "bytes": 12384,
-      "gzip_bytes": 3290,
-      "sha256": "a897464e3920d4d801dfd290ca09351734f9eaf0792cb9e46c516703fd5aa9a7"
+      "path": "assets/audio/cache_claim-d755fead0f.wav",
+      "bytes": 19448,
+      "gzip_bytes": 16246,
+      "sha256": "d755fead0f4670ffce751225d7601b81eaf7c165fabe72bdb1bde09884d81545"
     },
     {
-      "path": "assets/index-DqU7vmp1.js",
-      "bytes": 1303383,
-      "gzip_bytes": 350618,
-      "sha256": "824a2fbfd22124a00ebfede8bacc8168653e9af0293cbc39879398c23d3be548"
+      "path": "assets/audio/dash-59f4d142c8.wav",
+      "bytes": 12392,
+      "gzip_bytes": 10333,
+      "sha256": "59f4d142c80ce2016157c0921bdbbe380dc9d296f08beeb0a2addebc5efa6b1d"
+    },
+    {
+      "path": "assets/audio/enemy_break-41b8ea6276.wav",
+      "bytes": 16802,
+      "gzip_bytes": 14812,
+      "sha256": "41b8ea6276d149631dd345c3a9614b119919008b70dcfbebeacb6ae04860d6b2"
+    },
+    {
+      "path": "assets/audio/gate_open-bf7f029e2b.wav",
+      "bytes": 16802,
+      "gzip_bytes": 14473,
+      "sha256": "bf7f029e2b43c7a5ba06600709e7326a09d45412d61dedc70a64cda83460f38a"
+    },
+    {
+      "path": "assets/audio/hit_enemy-8fb69c48e8.wav",
+      "bytes": 6218,
+      "gzip_bytes": 5291,
+      "sha256": "8fb69c48e85bf7ac14370de082a9de30cc8432064cd745c190a5a6dfa3207fd5"
+    },
+    {
+      "path": "assets/audio/hurt_player-13af4b1c20.wav",
+      "bytes": 17684,
+      "gzip_bytes": 16017,
+      "sha256": "13af4b1c20b3babd7e5721444fdf95e1402e56cb5993fce10523ff979009a363"
+    },
+    {
+      "path": "assets/audio/jump-f575cceead.wav",
+      "bytes": 8864,
+      "gzip_bytes": 7640,
+      "sha256": "f575cceeadb93457d8589042ee0450e29a5e2b2d91bcfca9b393f1356f30ca30"
+    },
+    {
+      "path": "assets/audio/land-7e960f14af.wav",
+      "bytes": 7982,
+      "gzip_bytes": 6734,
+      "sha256": "7e960f14af49c264e7d75a18f3eba5d7b892f4ca0e85f272c7bbce6e124a3913"
+    },
+    {
+      "path": "assets/audio/mission_death-242b3d22c7.wav",
+      "bytes": 70604,
+      "gzip_bytes": 59910,
+      "sha256": "242b3d22c714c0257a1db37a3927c9d72567e3dfdf817b84a6a30520e19b6441"
+    },
+    {
+      "path": "assets/audio/mission_win-63a0ab22cc.wav",
+      "bytes": 75014,
+      "gzip_bytes": 61937,
+      "sha256": "63a0ab22ccfe7bc71a3fcd6372852d7007c8046480637670d62500ea5c61a657"
+    },
+    {
+      "path": "assets/audio/module_purchase-839476a273.wav",
+      "bytes": 21212,
+      "gzip_bytes": 18018,
+      "sha256": "839476a2732625617a0849283a5ea8f08ec5d57ede2bc230bd01a7e8a9529abc"
+    },
+    {
+      "path": "assets/audio/music-combat-f4e2f8ae29.wav",
+      "bytes": 3195214,
+      "gzip_bytes": 2295059,
+      "sha256": "f4e2f8ae29524bca196c130c2ae095f273be9bf30e40f947d95375000d7ba75b"
+    },
+    {
+      "path": "assets/audio/music-menu-f3b412f3cb.wav",
+      "bytes": 1597628,
+      "gzip_bytes": 1092402,
+      "sha256": "f3b412f3cbac4a6487de2f938c156e85648bdcf68dc0a4836bc55f48d5f76733"
+    },
+    {
+      "path": "assets/audio/power_restore-9ca0f8460d.wav",
+      "bytes": 24740,
+      "gzip_bytes": 20705,
+      "sha256": "9ca0f8460d2faac6b369a7640758a9e5cfef767a9af3b10cf609ccbd43b07da8"
+    },
+    {
+      "path": "assets/audio/shot-049d546c89.wav",
+      "bytes": 4896,
+      "gzip_bytes": 4312,
+      "sha256": "049d546c8942694bcf32525cca44e38e115aad16efad7f4b45c9557d80ed2064"
+    },
+    {
+      "path": "assets/audio/terminal_ready-508625f39a.wav",
+      "bytes": 15920,
+      "gzip_bytes": 13313,
+      "sha256": "508625f39a28d27c56a7b7cf44fd1090c14097a5a9d8c82bc1f5ee626df23f24"
+    },
+    {
+      "path": "assets/audio/ui_cancel-3048c39717.wav",
+      "bytes": 8864,
+      "gzip_bytes": 7272,
+      "sha256": "3048c39717a65f2b0632761ca14dd1e9ecc9186c8cdb004f9a7a2b8ffc6e39ff"
+    },
+    {
+      "path": "assets/audio/ui_confirm-58ed1d9492.wav",
+      "bytes": 8864,
+      "gzip_bytes": 7491,
+      "sha256": "58ed1d94921a23252722667d3e95511a377b62264dbb3a898246145fb801e6d1"
+    },
+    {
+      "path": "assets/audio/ui_denied-76d0d41474.wav",
+      "bytes": 12392,
+      "gzip_bytes": 8765,
+      "sha256": "76d0d41474372d32ac62b0f3dd2e0307e0df21c107711837fcc933fc33f0ee47"
+    },
+    {
+      "path": "assets/audio/ui_focus-9dfce4dadd.wav",
+      "bytes": 2690,
+      "gzip_bytes": 2364,
+      "sha256": "9dfce4dadd32332eeb65d2bab60eca3008d026e7830ffe3e196538ee4370b6a2"
+    },
+    {
+      "path": "assets/audio/warn_drone-b3336a8bf4.wav",
+      "bytes": 13274,
+      "gzip_bytes": 12191,
+      "sha256": "b3336a8bf4d4c999f2793a0c35a3d8eb7670496bb6549f256d10603deeac9de6"
+    },
+    {
+      "path": "assets/audio/warn_walker-3a06570e8e.wav",
+      "bytes": 16802,
+      "gzip_bytes": 13430,
+      "sha256": "3a06570e8ecac63c4be03652f21c28b9f3b210a8ac93a972fc6ab9dc50ee44a9"
+    },
+    {
+      "path": "assets/index-BB_KpUvu.css",
+      "bytes": 18237,
+      "gzip_bytes": 4395,
+      "sha256": "e94e88e321537991be61de353a40bf2565c7a921b141c0d296419bd9e4439337"
+    },
+    {
+      "path": "assets/index-DQT7TAYg.js",
+      "bytes": 1326770,
+      "gzip_bytes": 358071,
+      "sha256": "b86b87a15ac7a5ff6f7dc03339028b68cc9c1153b8e475f7c8493b6ceaf04dc5"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -37,9 +169,9 @@
     },
     {
       "path": "assets/m03/asset-index.json",
-      "bytes": 19536,
-      "gzip_bytes": 2668,
-      "sha256": "e7dc2496b40901ce5083fcc3d08dc148ff7bedf753e7f3a7778f7de2ab42148c"
+      "bytes": 19537,
+      "gzip_bytes": 2673,
+      "sha256": "917c5e9d3a06bbea88f3d5446a477b882919eb44a4ea266e56c4b6ac476f2c48"
     },
     {
       "path": "assets/m03/bg-far-38b50b95a8.png",
@@ -72,16 +204,16 @@
       "sha256": "43e2f17290f2426b2a3f3f5cfc6d59480edd98ae5789560188bbebc2902bf2a3"
     },
     {
-      "path": "assets/m03/mira-atlas-97683f34b7.png",
-      "bytes": 1187,
-      "gzip_bytes": 1210,
-      "sha256": "97683f34b7c0d29383f5dd4732cb4dbdc6cb16a56b7f9bdde129cd08836dd9e2"
+      "path": "assets/m03/mira-atlas-0891be5ad8.png",
+      "bytes": 1131,
+      "gzip_bytes": 1154,
+      "sha256": "0891be5ad86b6513f23987f5c40c3d96af18fb7204a72a6d06296c6db496d289"
     },
     {
-      "path": "assets/m03/mira-atlas-dbe2bac34f.json",
+      "path": "assets/m03/mira-atlas-c6b6e98db5.json",
       "bytes": 2575,
       "gzip_bytes": 415,
-      "sha256": "dbe2bac34f1b2578969c615c97654d1a9775f1c057d2bea98d54394ccf838628"
+      "sha256": "c6b6e98db56d680213db06138658bb5aee9cb1fb0954076c1c5b016759039dcc"
     },
     {
       "path": "assets/m03/props-atlas-2a48216610.png",
@@ -96,6 +228,12 @@
       "sha256": "76394b1d49fba662e137cddd0670216bcbfb39be8ab76d2bd8dcd2dbc4813203"
     },
     {
+      "path": "assets/m05a/mira-profile-429b6c5ae0.png",
+      "bytes": 885,
+      "gzip_bytes": 908,
+      "sha256": "429b6c5ae0d55bd3057a39812f991befb052c6dfe39e8e4a27aec497c347ebc9"
+    },
+    {
       "path": "boot-guard.js",
       "bytes": 4108,
       "gzip_bytes": 1824,
@@ -104,10 +242,10 @@
     {
       "path": "index.html",
       "bytes": 3907,
-      "gzip_bytes": 1388,
-      "sha256": "3e4ae7b5fbbb28fe0ee3ed1d7d77b11fa95d12a86ce19ab14c3e338d93c97a8a"
+      "gzip_bytes": 1390,
+      "sha256": "37b888361110ffa31d5cd4a96b915df84447df7aa7c555c1fdb71ed09f885d1b"
     }
   ],
-  "total_bytes": 1441138,
-  "total_gzip_bytes": 444046
+  "total_bytes": 6645514,
+  "total_gzip_bytes": 4162178
 }
