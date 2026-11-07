@@ -1,3 +1,24 @@
+
+  // Send a clean page address; campaign labels are separate from contact/form query strings.
+  function analyticsContext() {
+    const context = {
+      page_location: location.origin + location.pathname,
+      page_referrer: '',
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false
+    };
+    try { const ref = new URL(document.referrer); context.page_referrer = ref.origin + ref.pathname; } catch (_) {}
+    const query = new URLSearchParams(location.search);
+    for (const [utm, field] of Object.entries({utm_source:'campaign_source', utm_medium:'campaign_medium', utm_campaign:'campaign_name', utm_content:'campaign_content', utm_term:'campaign_term'})) {
+      const value = query.get(utm);
+      if (value && /^[a-zA-Z0-9_. -]{1,100}$/.test(value) && !/\d{7}/.test(value)) context[field] = value;
+    }
+    if (query.get('codex_test') === 'seo_20261107') { context.debug_mode = true; context.test_run = 'seo_20261107'; }
+    return context;
+  }
+  function analyticsPage() {
+    return {site: location.hostname.replace(/^www\./, ''), language: document.documentElement.lang || 'en', page_path: location.pathname};
+  }
 (() => {
   const config = window.__NUTS__ || {};
   const root = document.documentElement;
@@ -13,9 +34,12 @@
   });
 
   let analyticsLoaded = false;
-  const readConsent = () => localStorage.getItem(consentKey);
+  const readConsent = () => { try { return localStorage.getItem(consentKey); } catch (_) { return null; } };
   const loadAnalytics = () => {
-    if (!gaId || analyticsLoaded || readConsent() !== "granted") return;
+    if (!gaId || readConsent() !== "granted") return;
+    window["ga-disable-" + gaId] = false;
+    window.gtag("consent", "update", { analytics_storage: "granted" });
+    if (analyticsLoaded) return;
     analyticsLoaded = true;
     window.gtag("consent", "update", { analytics_storage: "granted", ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied" });
     const script = document.createElement("script");
@@ -23,12 +47,12 @@
     script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(gaId)}`;
     document.head.append(script);
     window.gtag("js", new Date());
-    window.gtag("config", gaId, { anonymize_ip: true, send_page_view: true, locale: config.locale || "en" });
+    window.gtag("config", gaId, { ...analyticsContext(), anonymize_ip: true, send_page_view: true, locale: config.locale || "en" });
   };
   const track = (name, params = {}) => {
     if (readConsent() !== "granted") return;
     loadAnalytics();
-    window.gtag("event", name, { locale: config.locale || "en", ...params });
+    window.gtag("event", name, { ...analyticsPage(), locale: config.locale || "en", ...params });
   };
 
   const cookie = document.querySelector("[data-cookie]");
@@ -38,8 +62,14 @@
     localStorage.setItem(consentKey, value);
     if (cookie) cookie.hidden = true;
     if (value === "granted") loadAnalytics();
+    else { window["ga-disable-" + gaId] = true; window.gtag("consent", "update", { analytics_storage: "denied" }); }
   }));
   loadAnalytics();
+  const analyticsSettings = document.createElement('button');
+  analyticsSettings.type = 'button'; analyticsSettings.className = 'button button-mini';
+  analyticsSettings.textContent = config.locale === 'ru' ? 'Настройки аналитики' : 'Analytics preferences';
+  analyticsSettings.addEventListener('click', () => { if (cookie) { cookie.hidden = false; cookie.querySelector('button')?.focus(); } });
+  document.querySelector('footer')?.appendChild(analyticsSettings);
 
   const header = document.querySelector("[data-header]");
   const syncHeader = () => header?.classList.toggle("is-scrolled", window.scrollY > 20);
