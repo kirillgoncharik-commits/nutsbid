@@ -65,7 +65,7 @@ export function renderPage(copy, gaId = "") {
       <span>NUTS<br>GAMES</span>
     </a>
     <nav class="nav" aria-label="Main navigation">
-      <a href="#services">${esc(labels[0])}</a><a href="#process">${esc(labels[1])}</a><a href="#experience">${esc(labels[2])}</a><a href="#work">${esc(labels[3])}</a>
+      <a href="#services">${esc(labels[0])}</a><a href="#process">${esc(labels[1])}</a><a href="#experience">${esc(labels[2])}</a><a href="#work">${esc(labels[3])}</a><a href="/games/">${copy.code === "ru" ? "Игры" : "Games"}</a>
     </nav>
     <div class="header-actions">
       <button class="lang-trigger" type="button" aria-expanded="false" aria-controls="language-menu" data-lang-trigger><span>${esc(copy.label)}</span><i aria-hidden="true">⌄</i></button>
