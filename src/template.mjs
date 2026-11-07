@@ -143,7 +143,7 @@ export function renderPage(copy, gaId = "") {
 
   <div class="squirrel-stage" data-squirrel-stage hidden><button type="button" data-squirrel-skip>${esc(copy.skip)}</button><pre aria-label="ASCII pixel squirrel"></pre></div>
   <aside class="cookie" data-cookie hidden><p>${esc(copy.cookie.text)} <a href="${esc(localeHref(copy.code, "privacy/"))}">${esc(copy.cookie.link)}</a></p><div><button type="button" data-consent="denied">${esc(copy.cookie.decline)}</button><button class="button button-mini" type="button" data-consent="granted">${esc(copy.cookie.accept)}</button></div></aside>
-  <script>window.__NUTS__=${json(ui)};</script><script src="/app.js" defer></script>
+  <script>window.__NUTS__=${json(ui)};</script><script src="/app.js?v=20261107b" defer></script>
 </body></html>`;
 }
 

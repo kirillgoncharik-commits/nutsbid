@@ -142,22 +142,28 @@
     const loadedAt = form.elements.namedItem("loadedAt");
     if (loadedAt) loadedAt.value = String(Date.now());
     let started = false;
+    let submitting = false;
     form.addEventListener("input", () => { if (!started) { started = true; track("contact_start"); } }, { once: true });
     form.addEventListener("submit", async (event) => {
       event.preventDefault();
+      if (submitting) return;
       const status = form.querySelector("[data-form-status]");
       status.classList.remove("is-error");
       if (!form.reportValidity()) return;
+      submitting = true;
       const button = form.querySelector("button[type=submit]");
       button.disabled = true; button.textContent = config.form.sending;
       const payload = Object.fromEntries(new FormData(form).entries());
       try {
         const response = await fetch("/api/contact", { method: "POST", headers: { "content-type": "application/json", "accept": "application/json" }, body: JSON.stringify(payload) });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        status.textContent = config.form.success; form.reset(); track("generate_lead", { project_type: payload.project || "unknown" });
+        const result = await response.json().catch(() => null);
+        if (!response.ok || result?.ok !== true) throw new Error(`HTTP ${response.status}`);
+        status.textContent = config.form.success; form.reset();
+        if (!payload.website) track("generate_lead", { project_type: payload.project || "unknown" });
       } catch {
         status.textContent = config.form.error; status.classList.add("is-error");
       } finally {
+        submitting = false;
         button.disabled = false; button.innerHTML = `${config.form.submit} <b>↗</b>`;
       }
     });
