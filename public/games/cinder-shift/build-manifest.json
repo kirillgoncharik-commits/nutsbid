@@ -1,7 +1,7 @@
 {
   "game_id": "r01",
   "build_id": "0.5.0-m05a.1",
-  "source_sha": "f02329a4fc4ca3c79a4e071779dd38a8335ae3a7",
+  "source_sha": "b450c6e441bd7b4729f47fcb7d7f22cf4740bf79",
   "source_dirty": false,
   "stage": "M05A workshop, feedback and audio",
   "files": [
@@ -144,10 +144,10 @@
       "sha256": "e94e88e321537991be61de353a40bf2565c7a921b141c0d296419bd9e4439337"
     },
     {
-      "path": "assets/index-DF2g3fbI.js",
+      "path": "assets/index-DQT7TAYg.js",
       "bytes": 1326770,
-      "gzip_bytes": 358068,
-      "sha256": "b52fcfa9705f59d55ad2607148e76fd574031e30d850db5e0c641165c50cd54b"
+      "gzip_bytes": 358071,
+      "sha256": "b86b87a15ac7a5ff6f7dc03339028b68cc9c1153b8e475f7c8493b6ceaf04dc5"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -242,10 +242,10 @@
     {
       "path": "index.html",
       "bytes": 3907,
-      "gzip_bytes": 1389,
-      "sha256": "f822293be99877fbaa00e057cc74125ef649702fef60953e4f4669e49d48b168"
+      "gzip_bytes": 1390,
+      "sha256": "37b888361110ffa31d5cd4a96b915df84447df7aa7c555c1fdb71ed09f885d1b"
     }
   ],
   "total_bytes": 6645514,
-  "total_gzip_bytes": 4162174
+  "total_gzip_bytes": 4162178
 }
