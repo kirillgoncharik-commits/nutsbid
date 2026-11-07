@@ -1,7 +1,7 @@
 {
   "game_id": "r01",
   "build_id": "0.5.1-m05a.1",
-  "source_sha": "6f1a0cc16eba01f4386292345e018831b7d9b0a6",
+  "source_sha": "35ac81644607ee3f0cbd2ef88c3fc685d20aa7b8",
   "source_dirty": false,
   "stage": "M05A.1 workshop and UI polish",
   "files": [
@@ -144,10 +144,10 @@
       "sha256": "cd68ffc1226ad980b17bbbbde31a773c28711c49f40536b1eee46d3734739c37"
     },
     {
-      "path": "assets/index-D2wD-qLz.js",
-      "bytes": 1327890,
-      "gzip_bytes": 358367,
-      "sha256": "9de8e1ea9463066b8778616491db056e875877e5c6a3b57e81c52623861f7a9b"
+      "path": "assets/index-DK9c2TtO.js",
+      "bytes": 1328230,
+      "gzip_bytes": 358506,
+      "sha256": "3e22d8d334dfda999a621b2962eebd4daaf9e9e003e715da4cf2e2645799b75a"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -240,12 +240,24 @@
       "sha256": "c79ebc17eb3017fdab6741204bfb26f3de30dd284b8ba9e60af496d73c9a7a55"
     },
     {
+      "path": "game-analytics.css",
+      "bytes": 695,
+      "gzip_bytes": 331,
+      "sha256": "bd7f88b810f3d424247b7413d3e092535447dfa2cccc78213de44804897a9e06"
+    },
+    {
+      "path": "game-analytics.js",
+      "bytes": 4366,
+      "gzip_bytes": 1678,
+      "sha256": "211f11ad9cdeab1fc3de0f62560f09503d9dddc07f2ad28bfc4ae81a859eb9db"
+    },
+    {
       "path": "index.html",
-      "bytes": 3907,
-      "gzip_bytes": 1388,
-      "sha256": "c766ece1d566499d1c38a8e6daa60009a1f934106240fb2b2ac4af04ff12b195"
+      "bytes": 4343,
+      "gzip_bytes": 1585,
+      "sha256": "c0dc23d41111231e54d954044980a22936c3e04e16253c8b78656685e4c9e851"
     }
   ],
-  "total_bytes": 6649143,
-  "total_gzip_bytes": 4162889
+  "total_bytes": 6654980,
+  "total_gzip_bytes": 4165234
 }
