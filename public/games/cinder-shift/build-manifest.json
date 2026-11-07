@@ -1,9 +1,9 @@
 {
   "game_id": "r01",
-  "build_id": "0.5.0-m05a.1",
-  "source_sha": "b450c6e441bd7b4729f47fcb7d7f22cf4740bf79",
+  "build_id": "0.5.1-m05a.1",
+  "source_sha": "6f1a0cc16eba01f4386292345e018831b7d9b0a6",
   "source_dirty": false,
-  "stage": "M05A workshop, feedback and audio",
+  "stage": "M05A.1 workshop and UI polish",
   "files": [
     {
       "path": "assets/audio/cache_claim-d755fead0f.wav",
@@ -138,16 +138,16 @@
       "sha256": "3a06570e8ecac63c4be03652f21c28b9f3b210a8ac93a972fc6ab9dc50ee44a9"
     },
     {
-      "path": "assets/index-BB_KpUvu.css",
-      "bytes": 18237,
-      "gzip_bytes": 4395,
-      "sha256": "e94e88e321537991be61de353a40bf2565c7a921b141c0d296419bd9e4439337"
+      "path": "assets/index-D2KwY3EA.css",
+      "bytes": 20746,
+      "gzip_bytes": 4812,
+      "sha256": "cd68ffc1226ad980b17bbbbde31a773c28711c49f40536b1eee46d3734739c37"
     },
     {
-      "path": "assets/index-DQT7TAYg.js",
-      "bytes": 1326770,
-      "gzip_bytes": 358071,
-      "sha256": "b86b87a15ac7a5ff6f7dc03339028b68cc9c1153b8e475f7c8493b6ceaf04dc5"
+      "path": "assets/index-D2wD-qLz.js",
+      "bytes": 1327890,
+      "gzip_bytes": 358367,
+      "sha256": "9de8e1ea9463066b8778616491db056e875877e5c6a3b57e81c52623861f7a9b"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -242,10 +242,10 @@
     {
       "path": "index.html",
       "bytes": 3907,
-      "gzip_bytes": 1390,
-      "sha256": "37b888361110ffa31d5cd4a96b915df84447df7aa7c555c1fdb71ed09f885d1b"
+      "gzip_bytes": 1388,
+      "sha256": "c766ece1d566499d1c38a8e6daa60009a1f934106240fb2b2ac4af04ff12b195"
     }
   ],
-  "total_bytes": 6645514,
-  "total_gzip_bytes": 4162178
+  "total_bytes": 6649143,
+  "total_gzip_bytes": 4162889
 }
