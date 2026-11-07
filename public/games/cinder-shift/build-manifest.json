@@ -1,9 +1,9 @@
 {
   "game_id": "r01",
-  "build_id": "0.5.1-m05a.1",
-  "source_sha": "08cfeabab5d6967992b35d18d24c77f88f23bd67",
+  "build_id": "0.6.0-m05b1.3",
+  "source_sha": "4c7b965d366e532b0d34e2437d046d4ddcf3fbd0",
   "source_dirty": false,
-  "stage": "M05A.1 workshop and UI polish",
+  "stage": "M05B.1 two sectors, map and enemy profiles",
   "files": [
     {
       "path": "assets/audio/cache_claim-d755fead0f.wav",
@@ -132,22 +132,28 @@
       "sha256": "b3336a8bf4d4c999f2793a0c35a3d8eb7670496bb6549f256d10603deeac9de6"
     },
     {
+      "path": "assets/audio/warn_turret-ca6165a33f.wav",
+      "bytes": 20330,
+      "gzip_bytes": 13722,
+      "sha256": "ca6165a33f6987d6989a4507b3f70610c653843b329f44e78cab8fcbee16574e"
+    },
+    {
       "path": "assets/audio/warn_walker-3a06570e8e.wav",
       "bytes": 16802,
       "gzip_bytes": 13430,
       "sha256": "3a06570e8ecac63c4be03652f21c28b9f3b210a8ac93a972fc6ab9dc50ee44a9"
     },
     {
-      "path": "assets/index-D2KwY3EA.css",
-      "bytes": 20746,
-      "gzip_bytes": 4812,
-      "sha256": "cd68ffc1226ad980b17bbbbde31a773c28711c49f40536b1eee46d3734739c37"
+      "path": "assets/index-B-52XV7-.js",
+      "bytes": 1363452,
+      "gzip_bytes": 368367,
+      "sha256": "9a56e3a87e0668250520ee82116b95f18b40bfa6538424cf94c8afc75d469eb7"
     },
     {
-      "path": "assets/index-kZeXoZwI.js",
-      "bytes": 1328320,
-      "gzip_bytes": 358527,
-      "sha256": "7b0279d75dfcf785fbeec7e843831b193e0c3e2b2f8f7557a6a9e4a2cee7b775"
+      "path": "assets/index-D4mZksD0.css",
+      "bytes": 24596,
+      "gzip_bytes": 5552,
+      "sha256": "d72d7035e8d565ae0f81dfa19d344064da5bb2e91cccc884d8a1b55cf30b2744"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -234,6 +240,18 @@
       "sha256": "429b6c5ae0d55bd3057a39812f991befb052c6dfe39e8e4a27aec497c347ebc9"
     },
     {
+      "path": "assets/m05b1/loading-2b8b90479e.webp",
+      "bytes": 173686,
+      "gzip_bytes": 173655,
+      "sha256": "2b8b90479e3dd8541b90ddeffd5d0e88c0132e03cbfec1f343ef13dcc51afe47"
+    },
+    {
+      "path": "assets/m05b1/menu-cfc7ef0b4f.webp",
+      "bytes": 149102,
+      "gzip_bytes": 149170,
+      "sha256": "cfc7ef0b4f39e8aedea5620dfbb56a01bbbba34ff96c342b3428466de53ecd9c"
+    },
+    {
       "path": "boot-guard.js",
       "bytes": 4108,
       "gzip_bytes": 1824,
@@ -253,11 +271,11 @@
     },
     {
       "path": "index.html",
-      "bytes": 4355,
-      "gzip_bytes": 1602,
-      "sha256": "ad8d4022ea8118842b12e8d5a5ebfe02677854be2bff47e2f79ca969643065b5"
+      "bytes": 4530,
+      "gzip_bytes": 1684,
+      "sha256": "dee6d7dc36e4c09c8efe30e301a52a6681598e280446d88ea0bf4dce3d34b524"
     }
   ],
-  "total_bytes": 6655102,
-  "total_gzip_bytes": 4165289
+  "total_bytes": 7037377,
+  "total_gzip_bytes": 4512498
 }
