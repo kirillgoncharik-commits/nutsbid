@@ -1,15 +1,29 @@
 {
   "game_id": "r01",
-  "build_id": "0.6.0-m05b1.3",
-  "source_sha": "4c7b965d366e532b0d34e2437d046d4ddcf3fbd0",
+  "build_id": "0.6.0-m06.0",
+  "target": "web",
+  "platform_status": "local_candidate",
+  "source_sha": "22da406857d2b690f136880d0fd642dce196e071",
   "source_dirty": false,
-  "stage": "M05B.1 two sectors, map and enemy profiles",
+  "stage": "M06 accessibility, art, audio and consented web event contract; native targets and human acceptance open",
   "files": [
+    {
+      "path": "assets/audio/boss_intro-c0fd838180.wav",
+      "bytes": 211724,
+      "gzip_bytes": 166100,
+      "sha256": "c0fd8381807334ceb33ce36d7cb0934e4470eb2b0c4e95d978077392ac5a7258"
+    },
     {
       "path": "assets/audio/cache_claim-d755fead0f.wav",
       "bytes": 19448,
       "gzip_bytes": 16246,
       "sha256": "d755fead0f4670ffce751225d7601b81eaf7c165fabe72bdb1bde09884d81545"
+    },
+    {
+      "path": "assets/audio/campaign_clear-5298e2128a.wav",
+      "bytes": 564524,
+      "gzip_bytes": 452364,
+      "sha256": "5298e2128a41e796657a0f44c621199766ad6fe92b1d1fd6fa6423ac05e180c9"
     },
     {
       "path": "assets/audio/dash-59f4d142c8.wav",
@@ -30,10 +44,28 @@
       "sha256": "bf7f029e2b43c7a5ba06600709e7326a09d45412d61dedc70a64cda83460f38a"
     },
     {
+      "path": "assets/audio/hit_armour-84bccc4484.wav",
+      "bytes": 19448,
+      "gzip_bytes": 9747,
+      "sha256": "84bccc4484a6d72a89454489320e23ceb04829f7e30f3f50b7ead7f382d2b045"
+    },
+    {
       "path": "assets/audio/hit_enemy-8fb69c48e8.wav",
       "bytes": 6218,
       "gzip_bytes": 5291,
       "sha256": "8fb69c48e85bf7ac14370de082a9de30cc8432064cd745c190a5a6dfa3207fd5"
+    },
+    {
+      "path": "assets/audio/hit_open-03fe87a0ef.wav",
+      "bytes": 17684,
+      "gzip_bytes": 10567,
+      "sha256": "03fe87a0ef30df64383856368138d0c84813474d9ad92e5e4bf83bb4990d0058"
+    },
+    {
+      "path": "assets/audio/hit_wall-5219ded171.wav",
+      "bytes": 10628,
+      "gzip_bytes": 6019,
+      "sha256": "5219ded1710ea8835bc96fb03751a08c20de463a8f278ac31d8fa2b98b3fa9e1"
     },
     {
       "path": "assets/audio/hurt_player-13af4b1c20.wav",
@@ -54,34 +86,34 @@
       "sha256": "7e960f14af49c264e7d75a18f3eba5d7b892f4ca0e85f272c7bbce6e124a3913"
     },
     {
-      "path": "assets/audio/mission_death-242b3d22c7.wav",
-      "bytes": 70604,
-      "gzip_bytes": 59910,
-      "sha256": "242b3d22c714c0257a1db37a3927c9d72567e3dfdf817b84a6a30520e19b6441"
+      "path": "assets/audio/mission_death-d5c154ffae.wav",
+      "bytes": 158804,
+      "gzip_bytes": 111919,
+      "sha256": "d5c154ffae6cab640ae73710a33180b2cad67a0ff1457555b68d84daed3cb871"
     },
     {
-      "path": "assets/audio/mission_win-63a0ab22cc.wav",
-      "bytes": 75014,
-      "gzip_bytes": 61937,
-      "sha256": "63a0ab22ccfe7bc71a3fcd6372852d7007c8046480637670d62500ea5c61a657"
+      "path": "assets/audio/mission_retry-99f33a1158.wav",
+      "bytes": 79424,
+      "gzip_bytes": 52755,
+      "sha256": "99f33a11582383bd05f25c1fd3f3876bde3a49e13f39cddc3e360a4d69cb9759"
     },
     {
-      "path": "assets/audio/module_purchase-839476a273.wav",
-      "bytes": 21212,
-      "gzip_bytes": 18018,
-      "sha256": "839476a2732625617a0849283a5ea8f08ec5d57ede2bc230bd01a7e8a9529abc"
+      "path": "assets/audio/mission_start-ed0d47dc64.wav",
+      "bytes": 105884,
+      "gzip_bytes": 86830,
+      "sha256": "ed0d47dc641cf9e23092b9f1e763c83635a6aaaf6ebaef0e02b8efd200c169c4"
     },
     {
-      "path": "assets/audio/music-combat-f4e2f8ae29.wav",
-      "bytes": 3195214,
-      "gzip_bytes": 2295059,
-      "sha256": "f4e2f8ae29524bca196c130c2ae095f273be9bf30e40f947d95375000d7ba75b"
+      "path": "assets/audio/mission_win-bef4435706.wav",
+      "bytes": 176444,
+      "gzip_bytes": 117667,
+      "sha256": "bef443570651880722e03caadf759c733a1cd91df61b7f1699bc1e3da6cd2957"
     },
     {
-      "path": "assets/audio/music-menu-f3b412f3cb.wav",
-      "bytes": 1597628,
-      "gzip_bytes": 1092402,
-      "sha256": "f3b412f3cbac4a6487de2f938c156e85648bdcf68dc0a4836bc55f48d5f76733"
+      "path": "assets/audio/module_purchase-6d52fa5efe.wav",
+      "bytes": 63548,
+      "gzip_bytes": 48329,
+      "sha256": "6d52fa5efea0e37e34f8e6cf48e828a9dcee5b330a5d35ee8139a2f12e89e9c7"
     },
     {
       "path": "assets/audio/power_restore-9ca0f8460d.wav",
@@ -144,16 +176,16 @@
       "sha256": "3a06570e8ecac63c4be03652f21c28b9f3b210a8ac93a972fc6ab9dc50ee44a9"
     },
     {
-      "path": "assets/index-B-52XV7-.js",
-      "bytes": 1363452,
-      "gzip_bytes": 368367,
-      "sha256": "9a56e3a87e0668250520ee82116b95f18b40bfa6538424cf94c8afc75d469eb7"
+      "path": "assets/index-B1QGwG5s.css",
+      "bytes": 29672,
+      "gzip_bytes": 6489,
+      "sha256": "23916f806fc9b1166b21ffff323e353e44033c5320e8e7e0484669267a678695"
     },
     {
-      "path": "assets/index-D4mZksD0.css",
-      "bytes": 24596,
-      "gzip_bytes": 5552,
-      "sha256": "d72d7035e8d565ae0f81dfa19d344064da5bb2e91cccc884d8a1b55cf30b2744"
+      "path": "assets/index-BazykE7p.js",
+      "bytes": 1459126,
+      "gzip_bytes": 392613,
+      "sha256": "75cabb670e4b05dc0d17995df08effad0f57a3cb16c96583b4c5cbe65995cfcb"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -252,10 +284,22 @@
       "sha256": "cfc7ef0b4f39e8aedea5620dfbb56a01bbbba34ff96c342b3428466de53ecd9c"
     },
     {
+      "path": "assets/m06/loading-2b8b90479e.webp",
+      "bytes": 173686,
+      "gzip_bytes": 173655,
+      "sha256": "2b8b90479e3dd8541b90ddeffd5d0e88c0132e03cbfec1f343ef13dcc51afe47"
+    },
+    {
+      "path": "assets/m06/menu-cfc7ef0b4f.webp",
+      "bytes": 149102,
+      "gzip_bytes": 149170,
+      "sha256": "cfc7ef0b4f39e8aedea5620dfbb56a01bbbba34ff96c342b3428466de53ecd9c"
+    },
+    {
       "path": "boot-guard.js",
-      "bytes": 4108,
-      "gzip_bytes": 1824,
-      "sha256": "c79ebc17eb3017fdab6741204bfb26f3de30dd284b8ba9e60af496d73c9a7a55"
+      "bytes": 4317,
+      "gzip_bytes": 1900,
+      "sha256": "0b66deb27bb00f9ef362317cf08b28dcb9e20ecfa9a66343257bf4b42a93fab5"
     },
     {
       "path": "game-analytics.css",
@@ -271,11 +315,11 @@
     },
     {
       "path": "index.html",
-      "bytes": 4530,
-      "gzip_bytes": 1684,
-      "sha256": "dee6d7dc36e4c09c8efe30e301a52a6681598e280446d88ea0bf4dce3d34b524"
+      "bytes": 5468,
+      "gzip_bytes": 1921,
+      "sha256": "d1f7a8f38938b46484316910c6811d55743160961b9f0a11956dee01179458d5"
     }
   ],
-  "total_bytes": 7037377,
-  "total_gzip_bytes": 4512498
+  "total_bytes": 3910502,
+  "total_gzip_bytes": 2395790
 }
