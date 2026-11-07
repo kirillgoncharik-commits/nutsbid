@@ -1,7 +1,7 @@
 {
   "game_id": "r01",
   "build_id": "0.5.1-m05a.1",
-  "source_sha": "71baab18d1dc411e707d1488054f06cfbc25da53",
+  "source_sha": "08cfeabab5d6967992b35d18d24c77f88f23bd67",
   "source_dirty": false,
   "stage": "M05A.1 workshop and UI polish",
   "files": [
@@ -138,16 +138,16 @@
       "sha256": "3a06570e8ecac63c4be03652f21c28b9f3b210a8ac93a972fc6ab9dc50ee44a9"
     },
     {
-      "path": "assets/index-C8bjra99.js",
-      "bytes": 1328320,
-      "gzip_bytes": 358525,
-      "sha256": "20660ae5e28f435b1094f20289f8db74a6d45bd591f0a612906704b5c000b1cd"
-    },
-    {
       "path": "assets/index-D2KwY3EA.css",
       "bytes": 20746,
       "gzip_bytes": 4812,
       "sha256": "cd68ffc1226ad980b17bbbbde31a773c28711c49f40536b1eee46d3734739c37"
+    },
+    {
+      "path": "assets/index-kZeXoZwI.js",
+      "bytes": 1328320,
+      "gzip_bytes": 358527,
+      "sha256": "7b0279d75dfcf785fbeec7e843831b193e0c3e2b2f8f7557a6a9e4a2cee7b775"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -253,11 +253,11 @@
     },
     {
       "path": "index.html",
-      "bytes": 4343,
-      "gzip_bytes": 1586,
-      "sha256": "7e959d9eeab4fdb8ef4d5af46c0e98acbab6a1eea15ae0444e3d9fd540ff576e"
+      "bytes": 4355,
+      "gzip_bytes": 1602,
+      "sha256": "ad8d4022ea8118842b12e8d5a5ebfe02677854be2bff47e2f79ca969643065b5"
     }
   ],
-  "total_bytes": 6655090,
-  "total_gzip_bytes": 4165271
+  "total_bytes": 6655102,
+  "total_gzip_bytes": 4165289
 }

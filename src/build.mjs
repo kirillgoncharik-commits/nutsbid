@@ -32,5 +32,5 @@ console.log(`Built ${localeOrder.length} locales in ${dist}`);
 
 // HTML and build provenance revalidate; the game HTML must not receive injected analytics.
 // https://developers.cloudflare.com/web-analytics/faq/ (Cache-Control: no-transform)
-await appendFile(join(dist, '_headers'), '/games/\n  Cache-Control: no-cache\n/games/cinder-shift/\n  Cache-Control: public, no-cache, no-transform\n/games/cinder-shift/index.html\n  Cache-Control: public, no-cache, no-transform\n/games/cinder-shift/build-manifest.json\n  Cache-Control: no-cache\n/games/cinder-shift/boot-guard.js\n  Cache-Control: no-cache\n/games/cinder-shift/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n');
+await appendFile(join(dist, '_headers'), '/games/\n  Cache-Control: no-cache\n/games/cinder-shift/\n  Cache-Control: public, no-cache, no-transform\n/games/cinder-shift/index.html\n  Cache-Control: public, no-cache, no-transform\n/games/cinder-shift/build-manifest.json\n  Cache-Control: no-cache\n/games/cinder-shift/game-analytics.js\n  Cache-Control: no-cache\n/games/cinder-shift/boot-guard.js\n  Cache-Control: no-cache\n/games/cinder-shift/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n');
 
