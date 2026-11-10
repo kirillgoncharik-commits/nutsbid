@@ -3,7 +3,7 @@
   "build_id": "0.6.2-rc.1",
   "target": "web",
   "platform_status": "local_candidate",
-  "source_sha": "8dde17fb2ccb8c6b3d9d770ad9111b7d77ea9de8",
+  "source_sha": "3a8572358a74cbf3e5b5e5e31a1abca708c4e960",
   "source_dirty": false,
   "stage": "Release readiness candidate for controlled QA",
   "files": [
@@ -200,10 +200,10 @@
       "sha256": "cea2b5b5bd141a39afb766af377337efafabdecbb86d9da42c243147620bad2b"
     },
     {
-      "path": "assets/index-DdAh2x54.js",
-      "bytes": 1594077,
-      "gzip_bytes": 425825,
-      "sha256": "48456109fe4c7d00a1f42f1090f8b443d8379450e4d8ad60a948427a60b73c71"
+      "path": "assets/index-C2UxFhcq.js",
+      "bytes": 1594112,
+      "gzip_bytes": 425869,
+      "sha256": "642410dcd07807aa02e4f4d71adbef64b773bbe82f733831f74792a44f875265"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -329,9 +329,9 @@
       "path": "index.html",
       "bytes": 5614,
       "gzip_bytes": 1961,
-      "sha256": "2883d51b78c4fb2371b291386f51c4166da9b3573a7e79b89e7b030e39ec01b6"
+      "sha256": "a75ba2fcd200cf7d4b3ca198dbcfabafc7f95427e06ed0c1aa81d2601796058b"
     }
   ],
-  "total_bytes": 4706352,
-  "total_gzip_bytes": 3011443
+  "total_bytes": 4706387,
+  "total_gzip_bytes": 3011487
 }
