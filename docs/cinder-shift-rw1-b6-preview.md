@@ -11,3 +11,5 @@ Source verification and videos: https://github.com/kirillgoncharik-commits/web-g
 This branch is a separate development preview; production main stays B3. Human acceptance is deferred outside the current Sprint 1 gate by user instruction on 14 November. Human first-play duration and physical devices are not claimed verified.
 
 Previous hashed resources remain available to older tabs.
+
+Test-only follow-up: 252e80b0dea14df0f5dbffa728940bc4a17f4829 stabilizes the optional Cargo ledge driver and adds 0/150/300 ms keyboard transport checks. It does not change game runtime files, package versions or this artifact. The source PR tracks final regression and exact runtime/test provenance separately.
