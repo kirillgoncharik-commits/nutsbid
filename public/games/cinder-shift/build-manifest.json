@@ -1,11 +1,11 @@
 {
   "game_id": "r01",
-  "build_id": "0.6.2-rc.1",
+  "build_id": "0.7.0-rw1.b3",
   "target": "web",
   "platform_status": "local_candidate",
-  "source_sha": "3a8572358a74cbf3e5b5e5e31a1abca708c4e960",
+  "source_sha": "d52853ed6b2d339d6015e64075dc93628cc482fa",
   "source_dirty": false,
-  "stage": "Release readiness candidate for controlled QA",
+  "stage": "M-REWORK in progress: six-room Airlock, nine-room Reactor/Archive/Cargo, Foundry and Regulator; acceptance incomplete",
   "files": [
     {
       "path": "assets/art-refresh-v1/art-refresh-v1.json",
@@ -194,16 +194,16 @@
       "sha256": "3a06570e8ecac63c4be03652f21c28b9f3b210a8ac93a972fc6ab9dc50ee44a9"
     },
     {
-      "path": "assets/index-B88QiCOZ.css",
-      "bytes": 50508,
-      "gzip_bytes": 10144,
-      "sha256": "cea2b5b5bd141a39afb766af377337efafabdecbb86d9da42c243147620bad2b"
+      "path": "assets/index-CUK23Bsy.css",
+      "bytes": 52688,
+      "gzip_bytes": 10541,
+      "sha256": "70b6932c67a1d2a2a5917defb46f369714ae865553cdb1294d613813891a33fc"
     },
     {
-      "path": "assets/index-C2UxFhcq.js",
-      "bytes": 1594112,
-      "gzip_bytes": 425869,
-      "sha256": "642410dcd07807aa02e4f4d71adbef64b773bbe82f733831f74792a44f875265"
+      "path": "assets/index-D71vCzKT.js",
+      "bytes": 1647352,
+      "gzip_bytes": 440084,
+      "sha256": "020febde94b632b825d6b5345da928a1d20591cc0b5b8f94a8518456b8312ab7"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -314,6 +314,12 @@
       "sha256": "cfc7ef0b4f39e8aedea5620dfbb56a01bbbba34ff96c342b3428466de53ecd9c"
     },
     {
+      "path": "assets/rework/regulator-230044bca6d1.png",
+      "bytes": 1475233,
+      "gzip_bytes": 1341086,
+      "sha256": "230044bca6d14122bc6653bbf5f3d5e98406605138a0d34e46748a8895b90605"
+    },
+    {
       "path": "boot-guard.js",
       "bytes": 4317,
       "gzip_bytes": 1939,
@@ -329,9 +335,9 @@
       "path": "index.html",
       "bytes": 5614,
       "gzip_bytes": 1961,
-      "sha256": "a75ba2fcd200cf7d4b3ca198dbcfabafc7f95427e06ed0c1aa81d2601796058b"
+      "sha256": "83c967eef729802a1ca17db041c629cdb730b884366e25f95554d24fffe70521"
     }
   ],
-  "total_bytes": 4706387,
-  "total_gzip_bytes": 3011487
+  "total_bytes": 6237040,
+  "total_gzip_bytes": 4367185
 }
