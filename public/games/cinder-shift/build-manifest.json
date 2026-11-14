@@ -1,9 +1,9 @@
 {
   "game_id": "r01",
-  "build_id": "0.7.0-rw1.b3",
+  "build_id": "0.7.0-rw1.b6",
   "target": "web",
   "platform_status": "local_candidate",
-  "source_sha": "d52853ed6b2d339d6015e64075dc93628cc482fa",
+  "source_sha": "a390b80e4488e0cde4596ba64631098c030843d4",
   "source_dirty": false,
   "stage": "M-REWORK in progress: six-room Airlock, nine-room Reactor/Archive/Cargo, Foundry and Regulator; acceptance incomplete",
   "files": [
@@ -194,16 +194,16 @@
       "sha256": "3a06570e8ecac63c4be03652f21c28b9f3b210a8ac93a972fc6ab9dc50ee44a9"
     },
     {
+      "path": "assets/index-Bw1BBlY9.js",
+      "bytes": 1649756,
+      "gzip_bytes": 440780,
+      "sha256": "03cf070127c4b301014523429aa6d448e2b41d0df3a912d1066404567b3d0376"
+    },
+    {
       "path": "assets/index-CUK23Bsy.css",
       "bytes": 52688,
       "gzip_bytes": 10541,
       "sha256": "70b6932c67a1d2a2a5917defb46f369714ae865553cdb1294d613813891a33fc"
-    },
-    {
-      "path": "assets/index-D71vCzKT.js",
-      "bytes": 1647352,
-      "gzip_bytes": 440084,
-      "sha256": "020febde94b632b825d6b5345da928a1d20591cc0b5b8f94a8518456b8312ab7"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -335,9 +335,9 @@
       "path": "index.html",
       "bytes": 5614,
       "gzip_bytes": 1961,
-      "sha256": "83c967eef729802a1ca17db041c629cdb730b884366e25f95554d24fffe70521"
+      "sha256": "9941e1e3c591b3acc452898f6276d5131a800ef5675c56459647b331807b1b90"
     }
   ],
-  "total_bytes": 6237040,
-  "total_gzip_bytes": 4367185
+  "total_bytes": 6239444,
+  "total_gzip_bytes": 4367881
 }
