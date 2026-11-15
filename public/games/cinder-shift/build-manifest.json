@@ -3,7 +3,7 @@
   "build_id": "0.7.0-rw2.a1",
   "target": "web",
   "platform_status": "local_candidate",
-  "source_sha": "76f7bb4b21cba808fe08d01601315043e34f5421",
+  "source_sha": "ba4cefd6eef70a3512de592d2e8c2e533fc6b52d",
   "source_dirty": false,
   "stage": "M-REWORK in progress: six-room Airlock, nine-room Reactor/Archive/Cargo, Foundry and Regulator; acceptance incomplete",
   "files": [
@@ -224,10 +224,10 @@
       "sha256": "7aaec3dca4375547285ce05c81b14d5e7df65081765fe740c8cb0d093229ad7c"
     },
     {
-      "path": "assets/index-xkJAhq2p.js",
-      "bytes": 1664092,
-      "gzip_bytes": 444853,
-      "sha256": "f60b928b306cab1197beae93cb8dc16e35ce0f73185f1790b2b0180bfce2c680"
+      "path": "assets/index-oQnyTpNq.js",
+      "bytes": 1664068,
+      "gzip_bytes": 444836,
+      "sha256": "4873cd5841e4188a62918a253657acdb32f81755d5be4c373e0b191de7981048"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -358,10 +358,10 @@
     {
       "path": "index.html",
       "bytes": 5614,
-      "gzip_bytes": 1960,
-      "sha256": "110d560c96c8fa2c683954091b1ac5e67809489e2721598d9a49dc03e0bf3273"
+      "gzip_bytes": 1959,
+      "sha256": "a1c1ac629cced0f83417e68c57bba34d4dec2d522463da5a774132182f4fe2f5"
     }
   ],
-  "total_bytes": 6449066,
-  "total_gzip_bytes": 4537054
+  "total_bytes": 6449042,
+  "total_gzip_bytes": 4537036
 }
