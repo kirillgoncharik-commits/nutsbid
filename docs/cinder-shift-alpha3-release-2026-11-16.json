@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-16",
+  "timezone": "Europe/Podgorica",
+  "status": "PREPARED_FOR_PRODUCTION",
+  "authorization": "Kirill: выложи на бой последнюю версию",
+  "url": "https://nuts.bid/games/cinder-shift/",
+  "version": "0.8.0-alpha.3",
+  "build_id": "cinder-v1.b19.a1",
+  "runtime_source_sha": "0117a79a53e114e9246ad6114d2c603a436f8ae7",
+  "source_docs_head": "469f9483925fd3126fedd4d905c1754e3e3bcf17",
+  "source_pr": "https://github.com/kirillgoncharik-commits/web-games-nuts/pull/10",
+  "artifact_run_id": 43901074700,
+  "artifact_id": 14244131349,
+  "artifact_zip_sha256": "3a9ced4caa808b955f8f5694d247adc131efb641ef16ee6814a8efa17859224b",
+  "artifact_tar_sha256": "3feb3f0dc0b4d4abf116e1c657548b1819cbe3590c064d06b233976075301afc",
+  "immutable_artifact_promoted_without_rebuild": true,
+  "all_71_artifact_file_hashes_match": true,
+  "site_check": "PASS; 7 locale routes/assets/metadata",
+  "validation": {
+    "artifact_gate": "all four jobs success, both complete 20-room campaign routes",
+    "combat_browsers": "Chromium/Firefox/WebKit success",
+    "local_model_tests": 113,
+    "models_ci_failure": "Registry build_id alpha.2 versus alpha.3 only; art check passed; model step skipped by that job. Local 113-model suite subsequently passed.",
+    "general_regression": "not all workflows claimed successful"
+  },
+  "previous_production": {
+    "version": "0.8.0-alpha.1",
+    "build_id": "cinder-v1.b1.a1",
+    "source_sha": "ffa3df5f24d155df95daaafd2c127c5fc97d0a29",
+    "site_commit": "f9f31a615ed05fc206a93eef24cb78d2fc67bb4c"
+  },
+  "rollback": "Restore game from site commit f9f31a615ed05fc206a93eef24cb78d2fc67bb4c; prior content-addressed assets retained.",
+  "acceptance_complete": false,
+  "known_open": "Cargo E inactivity not reproduced; full production art/audio, physical devices and human acceptance remain open."
+}
