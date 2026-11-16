@@ -1,10 +1,16 @@
 {
+  "version": "0.8.0-alpha.1",
+  "release_id": "0.8.0-alpha.1",
+  "milestone": "M-RW3",
+  "source_sha": "ffa3df5f24d155df95daaafd2c127c5fc97d0a29",
+  "source_dirty": false,
+  "build_id": "cinder-v1.b1.a1",
+  "built_at_utc": "2026-11-16T10:49:26.503Z",
+  "channel": "preview",
+  "notes_id": "0.8.0-alpha.1",
   "game_id": "r01",
-  "build_id": "0.7.0-rw2.c3",
   "target": "web",
   "platform_status": "local_candidate",
-  "source_sha": "c7a4b1cd519bd917bc738b581c1ce485dcd1c650",
-  "source_dirty": false,
   "stage": "M-REWORK in progress: six-room Airlock, nine-room Reactor/Archive/Cargo, Foundry and Regulator; acceptance incomplete",
   "files": [
     {
@@ -218,16 +224,16 @@
       "sha256": "3a06570e8ecac63c4be03652f21c28b9f3b210a8ac93a972fc6ab9dc50ee44a9"
     },
     {
-      "path": "assets/index-C3fkDOsg.js",
-      "bytes": 1669614,
-      "gzip_bytes": 446493,
-      "sha256": "04a0b892f54ba022c96a4850b2fed38972105fe17966c90ae1c1c499b81e9fc5"
+      "path": "assets/index-BYuVqsk1.js",
+      "bytes": 1680068,
+      "gzip_bytes": 450675,
+      "sha256": "5441e3fb5eadec1f627fef7ba3d844c2f787473ee1d4af99a54fdf8d43226eb6"
     },
     {
-      "path": "assets/index-DDRw-uCX.css",
-      "bytes": 61250,
-      "gzip_bytes": 12173,
-      "sha256": "4a015c48c67f832b33521ec9a614c71fd1f2b6c14ba11ed51e8ac86bfa1fb350"
+      "path": "assets/index-DhIQSmP4.css",
+      "bytes": 62418,
+      "gzip_bytes": 12438,
+      "sha256": "af9880ac48681560db7af6b57092b32cb3a7530ea3132c210a7d0035592c24df"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -344,6 +350,18 @@
       "sha256": "230044bca6d14122bc6653bbf5f3d5e98406605138a0d34e46748a8895b90605"
     },
     {
+      "path": "assets/world-concepts/adriatic.svg",
+      "bytes": 2657,
+      "gzip_bytes": 763,
+      "sha256": "b9fd383861c002193caac26ae70a00816655e1af27081ebfddcac79b76bba616"
+    },
+    {
+      "path": "assets/world-concepts/small-world.svg",
+      "bytes": 2496,
+      "gzip_bytes": 723,
+      "sha256": "807b488a06cc1a4486d18d21de713e6302facbabb9511dc17aabe67da9974f28"
+    },
+    {
       "path": "boot-guard.js",
       "bytes": 4317,
       "gzip_bytes": 1939,
@@ -357,11 +375,11 @@
     },
     {
       "path": "index.html",
-      "bytes": 5614,
-      "gzip_bytes": 1961,
-      "sha256": "9c4e263cab405941e8bb029623b58d8464f91e42304b9547b313f5e9c5f9aebe"
+      "bytes": 5668,
+      "gzip_bytes": 1980,
+      "sha256": "739e8cd89ae4503eb25229ae57a646ae58ff93209043113fbb58e77a8442f1ff"
     }
   ],
-  "total_bytes": 6456788,
-  "total_gzip_bytes": 4539128
+  "total_bytes": 6473617,
+  "total_gzip_bytes": 4545080
 }

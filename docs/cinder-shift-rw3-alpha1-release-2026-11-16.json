@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-16",
+  "timezone": "Europe/Podgorica",
+  "status": "PREPARED_FOR_PRODUCTION",
+  "authorization": "Kirill: деплоим на лив",
+  "version": "0.8.0-alpha.1",
+  "build_id": "cinder-v1.b1.a1",
+  "runtime_source_sha": "ffa3df5f24d155df95daaafd2c127c5fc97d0a29",
+  "source_docs_head": "8de1372a2920d6098f145ea99672bb38a20878a8",
+  "source_pr": "https://github.com/kirillgoncharik-commits/web-games-nuts/pull/9",
+  "artifact_run_id": 43851932232,
+  "artifact_sha256": "6c34085fc074cba7393ba2b13ababb656d29ab4ff54a9801401e14dd6fb57c8a",
+  "preview": "https://94d80ae3.nuts-games.pages.dev/games/cinder-shift/",
+  "all_61_artifact_file_hashes_match": true,
+  "immutable_artifact_promoted_without_rebuild": true,
+  "new_production_campaigns_delivered": 0,
+  "milestone_complete": false,
+  "local_site_check": "PASS; 7 locale routes/assets/metadata",
+  "previous_production": {
+    "version": "0.7.0-rw2.c3",
+    "source_sha": "c7a4b1cd519bd917bc738b581c1ce485dcd1c650",
+    "site_commit": "b7573456a19730f04d34499a423bafab4dda6944"
+  },
+  "rollback": "Restore the prior C3 artifact from the recorded site commit; retain current and prior content-addressed assets.",
+  "provenance_note": "The artifact creation channel remains preview; deployment target is production. Promotion preserves build ID and embedded metadata."
+}
