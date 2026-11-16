@@ -1,9 +1,9 @@
 {
   "game_id": "r01",
-  "build_id": "0.7.0-rw1.b6",
+  "build_id": "0.7.0-rw2.c3",
   "target": "web",
   "platform_status": "local_candidate",
-  "source_sha": "a390b80e4488e0cde4596ba64631098c030843d4",
+  "source_sha": "c7a4b1cd519bd917bc738b581c1ce485dcd1c650",
   "source_dirty": false,
   "stage": "M-REWORK in progress: six-room Airlock, nine-room Reactor/Archive/Cargo, Foundry and Regulator; acceptance incomplete",
   "files": [
@@ -26,10 +26,22 @@
       "sha256": "880dc7b5432d140ee29c4cd6c9fdff2f344c64a35f9c37a6f3588e09ac630e7d"
     },
     {
+      "path": "assets/audio/ability_ready-c14cdfc00e.wav",
+      "bytes": 11510,
+      "gzip_bytes": 9641,
+      "sha256": "c14cdfc00e45722e45c27c37c6f8d14e9d1a1606d5633fd27e3f2bbb756e8d4f"
+    },
+    {
       "path": "assets/audio/boss_intro-c0fd838180.wav",
       "bytes": 211724,
       "gzip_bytes": 171973,
       "sha256": "c0fd8381807334ceb33ce36d7cb0934e4470eb2b0c4e95d978077392ac5a7258"
+    },
+    {
+      "path": "assets/audio/boss_shutdown-cbf299c569.wav",
+      "bytes": 123524,
+      "gzip_bytes": 108237,
+      "sha256": "cbf299c569e8884e37e848c164fa59d1f58ac084b6ef2f648296468251222fb4"
     },
     {
       "path": "assets/audio/cache_claim-d755fead0f.wav",
@@ -140,6 +152,18 @@
       "sha256": "9ca0f8460d2faac6b369a7640758a9e5cfef767a9af3b10cf609ccbd43b07da8"
     },
     {
+      "path": "assets/audio/repair_suit-65331504c2.wav",
+      "bytes": 33560,
+      "gzip_bytes": 30267,
+      "sha256": "65331504c20618c23f0408e83b585dc04e7e7f1390f769eca24ab39c519d21a8"
+    },
+    {
+      "path": "assets/audio/shield_absorb-48179cd22b.wav",
+      "bytes": 20330,
+      "gzip_bytes": 15757,
+      "sha256": "48179cd22b568c7f54566854a3d9d4c3b5b9fc5786ee1e3f0480fad925c1bc91"
+    },
+    {
       "path": "assets/audio/shot-049d546c89.wav",
       "bytes": 4896,
       "gzip_bytes": 4427,
@@ -194,16 +218,16 @@
       "sha256": "3a06570e8ecac63c4be03652f21c28b9f3b210a8ac93a972fc6ab9dc50ee44a9"
     },
     {
-      "path": "assets/index-Bw1BBlY9.js",
-      "bytes": 1649756,
-      "gzip_bytes": 440780,
-      "sha256": "03cf070127c4b301014523429aa6d448e2b41d0df3a912d1066404567b3d0376"
+      "path": "assets/index-C3fkDOsg.js",
+      "bytes": 1669614,
+      "gzip_bytes": 446493,
+      "sha256": "04a0b892f54ba022c96a4850b2fed38972105fe17966c90ae1c1c499b81e9fc5"
     },
     {
-      "path": "assets/index-CUK23Bsy.css",
-      "bytes": 52688,
-      "gzip_bytes": 10541,
-      "sha256": "70b6932c67a1d2a2a5917defb46f369714ae865553cdb1294d613813891a33fc"
+      "path": "assets/index-DDRw-uCX.css",
+      "bytes": 61250,
+      "gzip_bytes": 12173,
+      "sha256": "4a015c48c67f832b33521ec9a614c71fd1f2b6c14ba11ed51e8ac86bfa1fb350"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -335,9 +359,9 @@
       "path": "index.html",
       "bytes": 5614,
       "gzip_bytes": 1961,
-      "sha256": "9941e1e3c591b3acc452898f6276d5131a800ef5675c56459647b331807b1b90"
+      "sha256": "9c4e263cab405941e8bb029623b58d8464f91e42304b9547b313f5e9c5f9aebe"
     }
   ],
-  "total_bytes": 6239444,
-  "total_gzip_bytes": 4367881
+  "total_bytes": 6456788,
+  "total_gzip_bytes": 4539128
 }
