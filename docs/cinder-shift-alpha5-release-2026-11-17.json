@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-17",
+  "status": "PREPARED_FROM_VERIFIED_IMMUTABLE_ARTIFACT",
+  "version": "0.8.0-alpha.5",
+  "build_id": "cinder-v1.b28.a1",
+  "runtime_source_sha": "c7f3b87f979b5531e883aac0d1fea21cd0512a04",
+  "authorization": "Kirill: опубликуй на бой",
+  "artifact_run_id": 44131732132,
+  "artifact_id": 14351855067,
+  "zip_sha256": "b53e2a193dea2b8e3f099c284c2683d4e77a3ee885fea0874370a837e3a11179",
+  "tar_sha256": "1352324598b8d3375ee441a50c1f31cd047656f0876dad4cf482e4578bb14495",
+  "all_71_file_hashes_match": true,
+  "immutable_artifact_promoted_without_rebuild": true,
+  "previous_site_commit": "022ed15f05e18441d66368bd2c7e4273419a932d",
+  "previous_game_build": "cinder-v1.b19.a1",
+  "cached_previous_bundles_retained": true,
+  "accepted": false,
+  "known_open": "RW3 production pack and RW4 remain incomplete; Cargo E inactivity unreproduced; mobile menu 44px/48px issue."
+}
