@@ -1,0 +1,23 @@
+{
+  "id": "c01-gate-v1",
+  "base_sha": "1eee69e8dfd4efaa9b3c203ae0c707d098ccb3db",
+  "source_sha": "bf0284d82cdad24715d924f357a30eeea998c615",
+  "variant_a": "baseline gameplay",
+  "variant_b": "A room experiment",
+  "start": "A",
+  "end": "B entry",
+  "variants": [
+    {
+      "variant": "A",
+      "build_id": "verify.44338729242.a1.c01-A",
+      "source_sha": "bf0284d82cdad24715d924f357a30eeea998c615",
+      "save_namespace": "cinder-shift-r01.c01-gate-v1.A"
+    },
+    {
+      "variant": "B",
+      "build_id": "verify.44338729242.a1.c01-B",
+      "source_sha": "bf0284d82cdad24715d924f357a30eeea998c615",
+      "save_namespace": "cinder-shift-r01.c01-gate-v1.B"
+    }
+  ]
+}

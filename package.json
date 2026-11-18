@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node src/build.mjs",
+    "build": "node scripts/build-c01-preview.mjs",
     "check": "node src/check.mjs",
     "dev": "npm run build && python3 -m http.server 4173 -d dist",
     "deploy:mailer": "wrangler deploy --config workers/mailer.wrangler.toml"
