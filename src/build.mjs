@@ -34,3 +34,13 @@ console.log(`Built ${localeOrder.length} locales in ${dist}`);
 // https://developers.cloudflare.com/web-analytics/faq/ (Cache-Control: no-transform)
 await appendFile(join(dist, '_headers'), '/games/\n  Cache-Control: no-cache\n/games/cinder-shift/\n  Cache-Control: public, no-cache, no-transform\n/games/cinder-shift/index.html\n  Cache-Control: public, no-cache, no-transform\n/games/cinder-shift/build-manifest.json\n  Cache-Control: no-cache\n/games/cinder-shift/game-analytics.js\n  Cache-Control: no-cache\n/games/cinder-shift/boot-guard.js\n  Cache-Control: no-cache\n/games/cinder-shift/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n');
 
+// Publish the verified C01 A/B bundle at its own path, with the preview's policy.
+// Detach the site's broader headers before setting the experiment's values.
+await appendFile(join(dist, '_headers'), `/games/cinder-shift-experiment/*
+  ! Content-Security-Policy
+  ! Cache-Control
+  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  Cache-Control: no-cache, no-transform
+  X-Robots-Tag: noindex, nofollow
+`);
+
