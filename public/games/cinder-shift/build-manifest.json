@@ -1,13 +1,13 @@
 {
-  "version": "0.8.0-alpha.5",
-  "release_id": "0.8.0-alpha.5",
+  "version": "0.8.0-alpha.11",
+  "release_id": "0.8.0-alpha.11",
   "milestone": "M-RW3",
-  "source_sha": "c7f3b87f979b5531e883aac0d1fea21cd0512a04",
+  "source_sha": "d4c72ec6ae53071f6dffc41f4ae8424a56dc3174",
   "source_dirty": false,
-  "build_id": "cinder-v1.b28.a1",
-  "built_at_utc": "2026-11-17T17:04:53.619Z",
+  "build_id": "cinder-v1.b44.a1",
+  "built_at_utc": "2026-11-19T07:42:43.223Z",
   "channel": "preview",
-  "notes_id": "0.8.0-alpha.5",
+  "notes_id": "0.8.0-alpha.11",
   "game_id": "r01",
   "target": "web",
   "platform_status": "local_candidate",
@@ -224,16 +224,16 @@
       "sha256": "3a06570e8ecac63c4be03652f21c28b9f3b210a8ac93a972fc6ab9dc50ee44a9"
     },
     {
-      "path": "assets/index-Bp4b0dOE.js",
-      "bytes": 1757244,
-      "gzip_bytes": 472916,
-      "sha256": "5a5759f105dda726b52e7e4b6bd591a42ed6421591a74ede403a8fc4c5ca4ce2"
+      "path": "assets/index-BFSsoxVu.js",
+      "bytes": 1793716,
+      "gzip_bytes": 484126,
+      "sha256": "e23d64ed738958bdb87d606df2a8cda2f406f7437d04d58316d9e5384aff9718"
     },
     {
-      "path": "assets/index-Mm0SQLpu.css",
+      "path": "assets/index-BLvrFijf.css",
       "bytes": 65662,
-      "gzip_bytes": 12960,
-      "sha256": "8f4c685ca208803bdef0782808652109bf0d44eb2489322c5ed67ec9ce8187d9"
+      "gzip_bytes": 12955,
+      "sha256": "4c1e42b1ba3511643fcc41fafc493f26399f13b1a9bb2db67ceee94efe307afd"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -437,9 +437,9 @@
       "path": "index.html",
       "bytes": 5668,
       "gzip_bytes": 1977,
-      "sha256": "ae701c039d8ae9ff31606c9192f03a10f741d453303842de40a84691303781b6"
+      "sha256": "30cf8f8fb75e2e6825ea6c9be451911bf0b8e8f2e89373fcbb1117db8600c7fc"
     }
   ],
-  "total_bytes": 6569060,
-  "total_gzip_bytes": 4571177
+  "total_bytes": 6605532,
+  "total_gzip_bytes": 4582382
 }
