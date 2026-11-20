@@ -1,18 +1,36 @@
 {
-  "version": "0.8.0-alpha.12",
-  "release_id": "0.8.0-alpha.12",
+  "version": "0.8.0-alpha.15",
+  "release_id": "0.8.0-alpha.15",
   "milestone": "M-RW3",
-  "source_sha": "836a04fbc8dc1cdb0d8dbbcba1ec0fc5b64034a5",
+  "source_sha": "228896fb374b114955c12ed68b9bbfb30fd42847",
   "source_dirty": false,
-  "build_id": "local.20261119T132107351Z",
-  "built_at_utc": "2026-11-19T13:21:07.351Z",
+  "build_id": "local.20261120T183846200Z",
+  "built_at_utc": "2026-11-20T18:38:46.200Z",
   "channel": "local",
-  "notes_id": "0.8.0-alpha.12",
+  "notes_id": "0.8.0-alpha.15",
   "game_id": "r01",
   "target": "web",
   "platform_status": "local_candidate",
   "stage": "M-REWORK in progress: six-room Airlock, nine-room Reactor/Archive/Cargo, Foundry and Regulator; acceptance incomplete",
   "files": [
+    {
+      "path": "assets/arrival/approach.png",
+      "bytes": 72606,
+      "gzip_bytes": 72649,
+      "sha256": "34081b760f8a55d2276eaa5a5b14fa6b410a6ebe79942eb830c78aab67845b4f"
+    },
+    {
+      "path": "assets/arrival/disembark.png",
+      "bytes": 72486,
+      "gzip_bytes": 72529,
+      "sha256": "3864b7df03633241738dce8f224a75e36ca084f6ab15de9eee9dcf235bea72f6"
+    },
+    {
+      "path": "assets/arrival/emergency.png",
+      "bytes": 70677,
+      "gzip_bytes": 70720,
+      "sha256": "b72863c1fb3461cb1227e7a1648fadb22da24c978346a7751c1cf5b7d9630bc4"
+    },
     {
       "path": "assets/art-refresh-v1/art-refresh-v1.json",
       "bytes": 39109,
@@ -224,16 +242,16 @@
       "sha256": "3a06570e8ecac63c4be03652f21c28b9f3b210a8ac93a972fc6ab9dc50ee44a9"
     },
     {
-      "path": "assets/index-B0p8uFZ6.js",
-      "bytes": 1799218,
-      "gzip_bytes": 483661,
-      "sha256": "20ac19a5aa68df5950ad93671cedf30ab19c640eec37100316143afe67a6d5df"
+      "path": "assets/index-CRHias9W.js",
+      "bytes": 1848857,
+      "gzip_bytes": 492898,
+      "sha256": "154e97a4b11fa6079694758919b8a103139e460f9594ad53ddd303c066150bc4"
     },
     {
-      "path": "assets/index-BLvrFijf.css",
-      "bytes": 65662,
-      "gzip_bytes": 12988,
-      "sha256": "4c1e42b1ba3511643fcc41fafc493f26399f13b1a9bb2db67ceee94efe307afd"
+      "path": "assets/index-Cj2sj_JO.css",
+      "bytes": 66519,
+      "gzip_bytes": 13205,
+      "sha256": "eeabfa601677c621c1460e079910e7c96bf9159c6829d8d5e3530c7d1de20eb3"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -362,6 +380,180 @@
       "sha256": "807b488a06cc1a4486d18d21de713e6302facbabb9511dc17aabe67da9974f28"
     },
     {
+      "path": "assets/world-production/SW01.png",
+      "bytes": 35181,
+      "gzip_bytes": 35211,
+      "sha256": "183ee5876aee55300c181aa35a43b99a4182a24c9d4d7b21b56da1f797c3c8e0"
+    },
+    {
+      "path": "assets/world-production/SW02.png",
+      "bytes": 31941,
+      "gzip_bytes": 31947,
+      "sha256": "95cbeaba639f5fd2422c2e1736f056e755c382da85a3b380f336b1f2103e3241"
+    },
+    {
+      "path": "assets/world-production/SW03.png",
+      "bytes": 35149,
+      "gzip_bytes": 35154,
+      "sha256": "3b7ac6ce8a1d93b8baa15153e23b6ed9d39afdb182eb27ad6afb01c170ee35eb"
+    },
+    {
+      "path": "assets/world-production/SW04.png",
+      "bytes": 32826,
+      "gzip_bytes": 32844,
+      "sha256": "e0eb13ca91aa37a10fef600b66ae0ca10bf00fce4a4421bb7ec04c23a2ff39ae"
+    },
+    {
+      "path": "assets/world-production/SW05.png",
+      "bytes": 33399,
+      "gzip_bytes": 33428,
+      "sha256": "6e691a2689d9ad7c278d7aa6c2e338116328ccfb880e1dbf7858bf31fb97eda4"
+    },
+    {
+      "path": "assets/world-production/YU01.png",
+      "bytes": 33978,
+      "gzip_bytes": 34011,
+      "sha256": "2f49c6fe0b8ed4ae589a9707f2e6a330938597e4e91a49055bd7951c66235aab"
+    },
+    {
+      "path": "assets/world-production/YU02.png",
+      "bytes": 32360,
+      "gzip_bytes": 32388,
+      "sha256": "4af68be71b3565995c41eee7718a430a6294c446076016881e5ac62b1a718d70"
+    },
+    {
+      "path": "assets/world-production/YU03.png",
+      "bytes": 35039,
+      "gzip_bytes": 35072,
+      "sha256": "5a41ebbe66d45ef34209ba1c611f64dbc7ff543e11755b4d2fb05b02a8e98311"
+    },
+    {
+      "path": "assets/world-production/YU04.png",
+      "bytes": 36828,
+      "gzip_bytes": 36852,
+      "sha256": "0521b923de5d87ea580399e7f453eb23159348ca25cb221df32432fc36143be5"
+    },
+    {
+      "path": "assets/world-production/YU05.png",
+      "bytes": 33577,
+      "gzip_bytes": 33602,
+      "sha256": "e9e5e2d9e6387592e7aad3e53cafefdc753aad9e1fcc47e1f550a26dcb908d20"
+    },
+    {
+      "path": "assets/world-production/base-airlock.png",
+      "bytes": 36009,
+      "gzip_bytes": 36042,
+      "sha256": "3855fd6c3d969725a84ebecdd34e7a8fdcc240ee85d33e713961dce70ba40518"
+    },
+    {
+      "path": "assets/world-production/base-archive.png",
+      "bytes": 35591,
+      "gzip_bytes": 35618,
+      "sha256": "294fc15a09c6fbd2e405a022a8426f8c1344cff13a0d6252ab4cd62ce257040e"
+    },
+    {
+      "path": "assets/world-production/base-cargo.png",
+      "bytes": 35893,
+      "gzip_bytes": 35907,
+      "sha256": "cf6090b49e592da9077fb5b16d5520f0e757a70bf46e592d7378f61327cbcca0"
+    },
+    {
+      "path": "assets/world-production/base-foundry.png",
+      "bytes": 35114,
+      "gzip_bytes": 35147,
+      "sha256": "b0d0cf634c1e5d587786d20d873f98cbb155f33751081657f8f13f2238e5ca95"
+    },
+    {
+      "path": "assets/world-production/base-reactor.png",
+      "bytes": 36742,
+      "gzip_bytes": 36775,
+      "sha256": "f51aaae106b2b04abb65d8fe2204b65262dc6e3629541ea65a108f159112e70a"
+    },
+    {
+      "path": "assets/world-production/base-regulator.png",
+      "bytes": 36687,
+      "gzip_bytes": 36720,
+      "sha256": "e5233a8fbee201cf3689b03df664162d1b537ede6553d0d46bbfe1ec494cceaa"
+    },
+    {
+      "path": "assets/world-production/manifest.json",
+      "bytes": 66904,
+      "gzip_bytes": 5588,
+      "sha256": "c80f3fed971998f7c7e80d93964c14d1e52642e4e52cf69b3256c6b072c489a9"
+    },
+    {
+      "path": "assets/world-production/material-SW01.png",
+      "bytes": 197,
+      "gzip_bytes": 211,
+      "sha256": "bcefe727470fa525db06b0a8642b25c32862cdd22a245878075786ac33747526"
+    },
+    {
+      "path": "assets/world-production/material-SW02.png",
+      "bytes": 191,
+      "gzip_bytes": 207,
+      "sha256": "1a8f018356b8b44c35903877f2ddabd95e419c9a4a73252f80134048e26dd983"
+    },
+    {
+      "path": "assets/world-production/material-SW03.png",
+      "bytes": 198,
+      "gzip_bytes": 212,
+      "sha256": "217fd202a8e30b6d7fd3f605a11af329f3e7849122c485bab43d2c2bcdde008f"
+    },
+    {
+      "path": "assets/world-production/material-SW04.png",
+      "bytes": 182,
+      "gzip_bytes": 196,
+      "sha256": "4111a735d41a3ad9843a2a0b736bf0096ef2ec05fc0112753bb116594c33ef71"
+    },
+    {
+      "path": "assets/world-production/material-SW05.png",
+      "bytes": 205,
+      "gzip_bytes": 218,
+      "sha256": "dab7854ee282d14a44af8172c8b195f1ae7de2459217a08de74cc68c9cb1306e"
+    },
+    {
+      "path": "assets/world-production/material-YU01.png",
+      "bytes": 184,
+      "gzip_bytes": 198,
+      "sha256": "ac71624e1881d920c443b3edb46541fe05ec27bb7337ecec476da14c59c02672"
+    },
+    {
+      "path": "assets/world-production/material-YU02.png",
+      "bytes": 182,
+      "gzip_bytes": 196,
+      "sha256": "41eaad8d42cd2c6b0345c66f81cfc0eee086966a5667343be0a0b4e4aa398aa1"
+    },
+    {
+      "path": "assets/world-production/material-YU03.png",
+      "bytes": 196,
+      "gzip_bytes": 211,
+      "sha256": "5b9baa1f172546274e4991b1533e681f68c65ac927b0fa61287e2ba166fb6175"
+    },
+    {
+      "path": "assets/world-production/material-YU04.png",
+      "bytes": 224,
+      "gzip_bytes": 241,
+      "sha256": "5f9177822941d1de667f84dee03a9944e30b062c7daf504d319c0b5335f6e332"
+    },
+    {
+      "path": "assets/world-production/material-YU05.png",
+      "bytes": 195,
+      "gzip_bytes": 210,
+      "sha256": "3f3ea26dc93ea4b725a7f3440040e416317df281b53ac76ee01676d4207ea909"
+    },
+    {
+      "path": "assets/world-production/objects.json",
+      "bytes": 30598,
+      "gzip_bytes": 1633,
+      "sha256": "03fd9a76b0cfcc3578b0a60218be8c7d0676eb0e953fed26e8bca5c4f5906093"
+    },
+    {
+      "path": "assets/world-production/objects.png",
+      "bytes": 594616,
+      "gzip_bytes": 593409,
+      "sha256": "177dc3f90b4ba44db736ad1c98b08ebe2aaee63c7bd3a20c3a3c880fbdfe4b68"
+    },
+    {
       "path": "assets/worlds/SW01.svg",
       "bytes": 1039,
       "gzip_bytes": 324,
@@ -436,10 +628,10 @@
     {
       "path": "index.html",
       "bytes": 5668,
-      "gzip_bytes": 1985,
-      "sha256": "10dd833045d735058a4d6480dc3a64d3c33c142fcc886b9069db4510521236a0"
+      "gzip_bytes": 1987,
+      "sha256": "3c0d3ead66de4fc61ae046bea31b81eda99d33e9eca9221afcb28204b12180ae"
     }
   ],
-  "total_bytes": 6611034,
-  "total_gzip_bytes": 4541020
+  "total_bytes": 8127685,
+  "total_gzip_bytes": 5925822
 }
