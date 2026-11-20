@@ -1,14 +1,15 @@
 {
-  "version": "0.8.0-alpha.15",
-  "release_id": "0.8.0-alpha.15",
+  "version": "0.8.0-alpha.16",
+  "release_id": "0.8.0-alpha.16",
   "milestone": "M-RW3",
-  "source_sha": "228896fb374b114955c12ed68b9bbfb30fd42847",
+  "source_sha": "03f9e5d8e22d1911674054f2547d6ad0759147b5",
   "source_dirty": false,
-  "build_id": "local.20261120T183846200Z",
-  "built_at_utc": "2026-11-20T18:38:46.200Z",
+  "build_id": "local.20261120T204136657Z",
+  "built_at_utc": "2026-11-20T20:41:36.657Z",
   "channel": "local",
-  "notes_id": "0.8.0-alpha.15",
+  "notes_id": "0.8.0-alpha.16",
   "game_id": "r01",
+  "gameplay_base_sha": "f72e0117589dc9046e597fb9110a62130f3ae4c1",
   "target": "web",
   "platform_status": "local_candidate",
   "stage": "M-REWORK in progress: six-room Airlock, nine-room Reactor/Archive/Cargo, Foundry and Regulator; acceptance incomplete",
@@ -242,16 +243,16 @@
       "sha256": "3a06570e8ecac63c4be03652f21c28b9f3b210a8ac93a972fc6ab9dc50ee44a9"
     },
     {
-      "path": "assets/index-CRHias9W.js",
-      "bytes": 1848857,
-      "gzip_bytes": 492898,
-      "sha256": "154e97a4b11fa6079694758919b8a103139e460f9594ad53ddd303c066150bc4"
-    },
-    {
       "path": "assets/index-Cj2sj_JO.css",
       "bytes": 66519,
       "gzip_bytes": 13205,
       "sha256": "eeabfa601677c621c1460e079910e7c96bf9159c6829d8d5e3530c7d1de20eb3"
+    },
+    {
+      "path": "assets/index-DhYYnQrR.js",
+      "bytes": 1858653,
+      "gzip_bytes": 495654,
+      "sha256": "466876ca428f9b361f988e4ac605326cda6c16372d154ac3fe656a9091020753"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -628,10 +629,10 @@
     {
       "path": "index.html",
       "bytes": 5668,
-      "gzip_bytes": 1987,
-      "sha256": "3c0d3ead66de4fc61ae046bea31b81eda99d33e9eca9221afcb28204b12180ae"
+      "gzip_bytes": 1988,
+      "sha256": "8061e7d168b437c30f89b6b4e56eea29a2f6012d345ace756d4138f15c91871c"
     }
   ],
-  "total_bytes": 8127685,
-  "total_gzip_bytes": 5925822
+  "total_bytes": 8137481,
+  "total_gzip_bytes": 5928579
 }
