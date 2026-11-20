@@ -2,14 +2,14 @@
   "version": "0.8.0-alpha.16",
   "release_id": "0.8.0-alpha.16",
   "milestone": "M-RW3",
-  "source_sha": "03f9e5d8e22d1911674054f2547d6ad0759147b5",
+  "source_sha": "5078a1b9597ed7289e5545f5eac72196c105fd0c",
   "source_dirty": false,
-  "build_id": "local.20261120T204136657Z",
-  "built_at_utc": "2026-11-20T20:41:36.657Z",
+  "build_id": "local.20261120T235508659Z",
+  "built_at_utc": "2026-11-20T23:55:08.659Z",
   "channel": "local",
   "notes_id": "0.8.0-alpha.16",
   "game_id": "r01",
-  "gameplay_base_sha": "f72e0117589dc9046e597fb9110a62130f3ae4c1",
+  "gameplay_base_sha": "5078a1b9597ed7289e5545f5eac72196c105fd0c",
   "target": "web",
   "platform_status": "local_candidate",
   "stage": "M-REWORK in progress: six-room Airlock, nine-room Reactor/Archive/Cargo, Foundry and Regulator; acceptance incomplete",
@@ -35,277 +35,277 @@
     {
       "path": "assets/art-refresh-v1/art-refresh-v1.json",
       "bytes": 39109,
-      "gzip_bytes": 1533,
+      "gzip_bytes": 1504,
       "sha256": "823b172f4391b16f7c9340254746e36898e07010f1eae713616349209abf9a41"
     },
     {
       "path": "assets/art-refresh-v1/art-refresh-v1.png",
       "bytes": 546747,
-      "gzip_bytes": 542055,
+      "gzip_bytes": 542021,
       "sha256": "0caa0f990229f4d4b90fba7abe0c41925ebe749af3b9358dc8a72bc2577ce245"
     },
     {
       "path": "assets/art-refresh-v1/runtime-manifest.json",
       "bytes": 56018,
-      "gzip_bytes": 5081,
+      "gzip_bytes": 5036,
       "sha256": "880dc7b5432d140ee29c4cd6c9fdff2f344c64a35f9c37a6f3588e09ac630e7d"
     },
     {
       "path": "assets/audio/ability_ready-c14cdfc00e.wav",
       "bytes": 11510,
-      "gzip_bytes": 9566,
+      "gzip_bytes": 9641,
       "sha256": "c14cdfc00e45722e45c27c37c6f8d14e9d1a1606d5633fd27e3f2bbb756e8d4f"
     },
     {
       "path": "assets/audio/boss_intro-c0fd838180.wav",
       "bytes": 211724,
-      "gzip_bytes": 166100,
+      "gzip_bytes": 171973,
       "sha256": "c0fd8381807334ceb33ce36d7cb0934e4470eb2b0c4e95d978077392ac5a7258"
     },
     {
       "path": "assets/audio/boss_shutdown-cbf299c569.wav",
       "bytes": 123524,
-      "gzip_bytes": 104801,
+      "gzip_bytes": 108237,
       "sha256": "cbf299c569e8884e37e848c164fa59d1f58ac084b6ef2f648296468251222fb4"
     },
     {
       "path": "assets/audio/cache_claim-d755fead0f.wav",
       "bytes": 19448,
-      "gzip_bytes": 16246,
+      "gzip_bytes": 16487,
       "sha256": "d755fead0f4670ffce751225d7601b81eaf7c165fabe72bdb1bde09884d81545"
     },
     {
       "path": "assets/audio/campaign_clear-5298e2128a.wav",
       "bytes": 564524,
-      "gzip_bytes": 452364,
+      "gzip_bytes": 461705,
       "sha256": "5298e2128a41e796657a0f44c621199766ad6fe92b1d1fd6fa6423ac05e180c9"
     },
     {
       "path": "assets/audio/dash-59f4d142c8.wav",
       "bytes": 12392,
-      "gzip_bytes": 10333,
+      "gzip_bytes": 10399,
       "sha256": "59f4d142c80ce2016157c0921bdbbe380dc9d296f08beeb0a2addebc5efa6b1d"
     },
     {
       "path": "assets/audio/enemy_break-41b8ea6276.wav",
       "bytes": 16802,
-      "gzip_bytes": 14812,
+      "gzip_bytes": 15027,
       "sha256": "41b8ea6276d149631dd345c3a9614b119919008b70dcfbebeacb6ae04860d6b2"
     },
     {
       "path": "assets/audio/gate_open-bf7f029e2b.wav",
       "bytes": 16802,
-      "gzip_bytes": 14473,
+      "gzip_bytes": 14909,
       "sha256": "bf7f029e2b43c7a5ba06600709e7326a09d45412d61dedc70a64cda83460f38a"
     },
     {
       "path": "assets/audio/hit_armour-84bccc4484.wav",
       "bytes": 19448,
-      "gzip_bytes": 9747,
+      "gzip_bytes": 9784,
       "sha256": "84bccc4484a6d72a89454489320e23ceb04829f7e30f3f50b7ead7f382d2b045"
     },
     {
       "path": "assets/audio/hit_enemy-8fb69c48e8.wav",
       "bytes": 6218,
-      "gzip_bytes": 5291,
+      "gzip_bytes": 5329,
       "sha256": "8fb69c48e85bf7ac14370de082a9de30cc8432064cd745c190a5a6dfa3207fd5"
     },
     {
       "path": "assets/audio/hit_open-03fe87a0ef.wav",
       "bytes": 17684,
-      "gzip_bytes": 10567,
+      "gzip_bytes": 10858,
       "sha256": "03fe87a0ef30df64383856368138d0c84813474d9ad92e5e4bf83bb4990d0058"
     },
     {
       "path": "assets/audio/hit_wall-5219ded171.wav",
       "bytes": 10628,
-      "gzip_bytes": 6019,
+      "gzip_bytes": 6090,
       "sha256": "5219ded1710ea8835bc96fb03751a08c20de463a8f278ac31d8fa2b98b3fa9e1"
     },
     {
       "path": "assets/audio/hurt_player-13af4b1c20.wav",
       "bytes": 17684,
-      "gzip_bytes": 16017,
+      "gzip_bytes": 16340,
       "sha256": "13af4b1c20b3babd7e5721444fdf95e1402e56cb5993fce10523ff979009a363"
     },
     {
       "path": "assets/audio/jump-f575cceead.wav",
       "bytes": 8864,
-      "gzip_bytes": 7640,
+      "gzip_bytes": 7976,
       "sha256": "f575cceeadb93457d8589042ee0450e29a5e2b2d91bcfca9b393f1356f30ca30"
     },
     {
       "path": "assets/audio/land-7e960f14af.wav",
       "bytes": 7982,
-      "gzip_bytes": 6734,
+      "gzip_bytes": 6906,
       "sha256": "7e960f14af49c264e7d75a18f3eba5d7b892f4ca0e85f272c7bbce6e124a3913"
     },
     {
       "path": "assets/audio/mission_death-d5c154ffae.wav",
       "bytes": 158804,
-      "gzip_bytes": 111919,
+      "gzip_bytes": 115524,
       "sha256": "d5c154ffae6cab640ae73710a33180b2cad67a0ff1457555b68d84daed3cb871"
     },
     {
       "path": "assets/audio/mission_retry-99f33a1158.wav",
       "bytes": 79424,
-      "gzip_bytes": 52755,
+      "gzip_bytes": 53984,
       "sha256": "99f33a11582383bd05f25c1fd3f3876bde3a49e13f39cddc3e360a4d69cb9759"
     },
     {
       "path": "assets/audio/mission_start-ed0d47dc64.wav",
       "bytes": 105884,
-      "gzip_bytes": 86830,
+      "gzip_bytes": 88993,
       "sha256": "ed0d47dc641cf9e23092b9f1e763c83635a6aaaf6ebaef0e02b8efd200c169c4"
     },
     {
       "path": "assets/audio/mission_win-bef4435706.wav",
       "bytes": 176444,
-      "gzip_bytes": 117667,
+      "gzip_bytes": 121182,
       "sha256": "bef443570651880722e03caadf759c733a1cd91df61b7f1699bc1e3da6cd2957"
     },
     {
       "path": "assets/audio/module_purchase-6d52fa5efe.wav",
       "bytes": 63548,
-      "gzip_bytes": 48329,
+      "gzip_bytes": 49406,
       "sha256": "6d52fa5efea0e37e34f8e6cf48e828a9dcee5b330a5d35ee8139a2f12e89e9c7"
     },
     {
       "path": "assets/audio/power_restore-9ca0f8460d.wav",
       "bytes": 24740,
-      "gzip_bytes": 20705,
+      "gzip_bytes": 21049,
       "sha256": "9ca0f8460d2faac6b369a7640758a9e5cfef767a9af3b10cf609ccbd43b07da8"
     },
     {
       "path": "assets/audio/repair_suit-65331504c2.wav",
       "bytes": 33560,
-      "gzip_bytes": 29822,
+      "gzip_bytes": 30267,
       "sha256": "65331504c20618c23f0408e83b585dc04e7e7f1390f769eca24ab39c519d21a8"
     },
     {
       "path": "assets/audio/shield_absorb-48179cd22b.wav",
       "bytes": 20330,
-      "gzip_bytes": 15584,
+      "gzip_bytes": 15757,
       "sha256": "48179cd22b568c7f54566854a3d9d4c3b5b9fc5786ee1e3f0480fad925c1bc91"
     },
     {
       "path": "assets/audio/shot-049d546c89.wav",
       "bytes": 4896,
-      "gzip_bytes": 4312,
+      "gzip_bytes": 4427,
       "sha256": "049d546c8942694bcf32525cca44e38e115aad16efad7f4b45c9557d80ed2064"
     },
     {
       "path": "assets/audio/terminal_ready-508625f39a.wav",
       "bytes": 15920,
-      "gzip_bytes": 13313,
+      "gzip_bytes": 13568,
       "sha256": "508625f39a28d27c56a7b7cf44fd1090c14097a5a9d8c82bc1f5ee626df23f24"
     },
     {
       "path": "assets/audio/ui_cancel-3048c39717.wav",
       "bytes": 8864,
-      "gzip_bytes": 7272,
+      "gzip_bytes": 7354,
       "sha256": "3048c39717a65f2b0632761ca14dd1e9ecc9186c8cdb004f9a7a2b8ffc6e39ff"
     },
     {
       "path": "assets/audio/ui_confirm-58ed1d9492.wav",
       "bytes": 8864,
-      "gzip_bytes": 7491,
+      "gzip_bytes": 7580,
       "sha256": "58ed1d94921a23252722667d3e95511a377b62264dbb3a898246145fb801e6d1"
     },
     {
       "path": "assets/audio/ui_denied-76d0d41474.wav",
       "bytes": 12392,
-      "gzip_bytes": 8765,
+      "gzip_bytes": 9064,
       "sha256": "76d0d41474372d32ac62b0f3dd2e0307e0df21c107711837fcc933fc33f0ee47"
     },
     {
       "path": "assets/audio/ui_focus-9dfce4dadd.wav",
       "bytes": 2690,
-      "gzip_bytes": 2364,
+      "gzip_bytes": 2403,
       "sha256": "9dfce4dadd32332eeb65d2bab60eca3008d026e7830ffe3e196538ee4370b6a2"
     },
     {
       "path": "assets/audio/warn_drone-b3336a8bf4.wav",
       "bytes": 13274,
-      "gzip_bytes": 12191,
+      "gzip_bytes": 12301,
       "sha256": "b3336a8bf4d4c999f2793a0c35a3d8eb7670496bb6549f256d10603deeac9de6"
     },
     {
       "path": "assets/audio/warn_turret-ca6165a33f.wav",
       "bytes": 20330,
-      "gzip_bytes": 13722,
+      "gzip_bytes": 13869,
       "sha256": "ca6165a33f6987d6989a4507b3f70610c653843b329f44e78cab8fcbee16574e"
     },
     {
       "path": "assets/audio/warn_walker-3a06570e8e.wav",
       "bytes": 16802,
-      "gzip_bytes": 13430,
+      "gzip_bytes": 13747,
       "sha256": "3a06570e8ecac63c4be03652f21c28b9f3b210a8ac93a972fc6ab9dc50ee44a9"
+    },
+    {
+      "path": "assets/index-CE1URBl5.js",
+      "bytes": 1869154,
+      "gzip_bytes": 500901,
+      "sha256": "a7b698eee97e717bf597fef98dbff6b09b379557cc223a14af73046c1d00c9d6"
     },
     {
       "path": "assets/index-Cj2sj_JO.css",
       "bytes": 66519,
-      "gzip_bytes": 13205,
+      "gzip_bytes": 13177,
       "sha256": "eeabfa601677c621c1460e079910e7c96bf9159c6829d8d5e3530c7d1de20eb3"
-    },
-    {
-      "path": "assets/index-DhYYnQrR.js",
-      "bytes": 1858653,
-      "gzip_bytes": 495654,
-      "sha256": "466876ca428f9b361f988e4ac605326cda6c16372d154ac3fe656a9091020753"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
       "bytes": 12454,
-      "gzip_bytes": 11579,
+      "gzip_bytes": 11588,
       "sha256": "f525a2031410b89705a49bcc1a29e9fedf7e984018e38db85b5751f122fc1f58"
     },
     {
       "path": "assets/m03/architecture-b-034c9862b9.png",
       "bytes": 22585,
-      "gzip_bytes": 22077,
+      "gzip_bytes": 22196,
       "sha256": "034c9862b9e898969165acc4d8808b0c21e63adbbef064310a2a913e318d86db"
     },
     {
       "path": "assets/m03/architecture-c-60ca9a0761.png",
       "bytes": 29006,
-      "gzip_bytes": 28270,
+      "gzip_bytes": 28282,
       "sha256": "60ca9a07613ec99cae501e8c45dc97fc1ae642f48aa96405bf84a85ad3ed88ef"
     },
     {
       "path": "assets/m03/asset-index.json",
       "bytes": 19537,
-      "gzip_bytes": 2673,
+      "gzip_bytes": 2655,
       "sha256": "917c5e9d3a06bbea88f3d5446a477b882919eb44a4ea266e56c4b6ac476f2c48"
     },
     {
       "path": "assets/m03/bg-far-38b50b95a8.png",
       "bytes": 12940,
-      "gzip_bytes": 12288,
+      "gzip_bytes": 12308,
       "sha256": "38b50b95a8c7b8d67a53a10b8d9c2ddaf477cc5d1d85f08898fa0cca370b6e52"
     },
     {
       "path": "assets/m03/enemies-atlas-203e8fbe25.png",
       "bytes": 1516,
-      "gzip_bytes": 1525,
+      "gzip_bytes": 1529,
       "sha256": "203e8fbe2593ebc4ae64c5156c723acd861c804cc3f003f1eee8881fe585e1ce"
     },
     {
       "path": "assets/m03/enemies-atlas-8d6cc6288e.json",
       "bytes": 2251,
-      "gzip_bytes": 393,
+      "gzip_bytes": 394,
       "sha256": "8d6cc6288ef6ebe7a298bac1484017b01ec56aae0caf484189c27cb7661518d5"
     },
     {
       "path": "assets/m03/environment-atlas-0d06cf6453.png",
       "bytes": 1022,
-      "gzip_bytes": 1041,
+      "gzip_bytes": 1040,
       "sha256": "0d06cf6453ad4a086414150bdf87f32960e65759551780646406bc2105e2012c"
     },
     {
       "path": "assets/m03/environment-atlas-43e2f17290.json",
       "bytes": 3227,
-      "gzip_bytes": 361,
+      "gzip_bytes": 360,
       "sha256": "43e2f17290f2426b2a3f3f5cfc6d59480edd98ae5789560188bbebc2902bf2a3"
     },
     {
@@ -317,19 +317,19 @@
     {
       "path": "assets/m03/mira-atlas-c6b6e98db5.json",
       "bytes": 2575,
-      "gzip_bytes": 415,
+      "gzip_bytes": 417,
       "sha256": "c6b6e98db56d680213db06138658bb5aee9cb1fb0954076c1c5b016759039dcc"
     },
     {
       "path": "assets/m03/props-atlas-2a48216610.png",
       "bytes": 4813,
-      "gzip_bytes": 4594,
+      "gzip_bytes": 4593,
       "sha256": "2a48216610ca2b0c314a82af3ac0e0bfd9a8413f442cd3970129cebc78dd7373"
     },
     {
       "path": "assets/m03/props-atlas-76394b1d49.json",
       "bytes": 4244,
-      "gzip_bytes": 505,
+      "gzip_bytes": 509,
       "sha256": "76394b1d49fba662e137cddd0670216bcbfb39be8ab76d2bd8dcd2dbc4813203"
     },
     {
@@ -365,49 +365,49 @@
     {
       "path": "assets/rework/regulator-230044bca6d1.png",
       "bytes": 1475233,
-      "gzip_bytes": 1335161,
+      "gzip_bytes": 1341086,
       "sha256": "230044bca6d14122bc6653bbf5f3d5e98406605138a0d34e46748a8895b90605"
     },
     {
       "path": "assets/world-concepts/adriatic.svg",
       "bytes": 2657,
-      "gzip_bytes": 777,
+      "gzip_bytes": 763,
       "sha256": "b9fd383861c002193caac26ae70a00816655e1af27081ebfddcac79b76bba616"
     },
     {
       "path": "assets/world-concepts/small-world.svg",
       "bytes": 2496,
-      "gzip_bytes": 731,
+      "gzip_bytes": 723,
       "sha256": "807b488a06cc1a4486d18d21de713e6302facbabb9511dc17aabe67da9974f28"
     },
     {
       "path": "assets/world-production/SW01.png",
       "bytes": 35181,
-      "gzip_bytes": 35211,
+      "gzip_bytes": 35214,
       "sha256": "183ee5876aee55300c181aa35a43b99a4182a24c9d4d7b21b56da1f797c3c8e0"
     },
     {
       "path": "assets/world-production/SW02.png",
       "bytes": 31941,
-      "gzip_bytes": 31947,
+      "gzip_bytes": 31969,
       "sha256": "95cbeaba639f5fd2422c2e1736f056e755c382da85a3b380f336b1f2103e3241"
     },
     {
       "path": "assets/world-production/SW03.png",
       "bytes": 35149,
-      "gzip_bytes": 35154,
+      "gzip_bytes": 35182,
       "sha256": "3b7ac6ce8a1d93b8baa15153e23b6ed9d39afdb182eb27ad6afb01c170ee35eb"
     },
     {
       "path": "assets/world-production/SW04.png",
       "bytes": 32826,
-      "gzip_bytes": 32844,
+      "gzip_bytes": 32857,
       "sha256": "e0eb13ca91aa37a10fef600b66ae0ca10bf00fce4a4421bb7ec04c23a2ff39ae"
     },
     {
       "path": "assets/world-production/SW05.png",
       "bytes": 33399,
-      "gzip_bytes": 33428,
+      "gzip_bytes": 33432,
       "sha256": "6e691a2689d9ad7c278d7aa6c2e338116328ccfb880e1dbf7858bf31fb97eda4"
     },
     {
@@ -431,31 +431,31 @@
     {
       "path": "assets/world-production/YU04.png",
       "bytes": 36828,
-      "gzip_bytes": 36852,
+      "gzip_bytes": 36861,
       "sha256": "0521b923de5d87ea580399e7f453eb23159348ca25cb221df32432fc36143be5"
     },
     {
       "path": "assets/world-production/YU05.png",
       "bytes": 33577,
-      "gzip_bytes": 33602,
+      "gzip_bytes": 33610,
       "sha256": "e9e5e2d9e6387592e7aad3e53cafefdc753aad9e1fcc47e1f550a26dcb908d20"
     },
     {
       "path": "assets/world-production/base-airlock.png",
       "bytes": 36009,
       "gzip_bytes": 36042,
-      "sha256": "3855fd6c3d969725a84ebecdd34e7a8fdcc240ee85d33e713961dce70ba40518"
+      "sha256": "339f0e0f59af68c39aa39fb4ec5ca6dd2312b2d92e75fabc6c1d05620bacf14e"
     },
     {
       "path": "assets/world-production/base-archive.png",
       "bytes": 35591,
-      "gzip_bytes": 35618,
-      "sha256": "294fc15a09c6fbd2e405a022a8426f8c1344cff13a0d6252ab4cd62ce257040e"
+      "gzip_bytes": 35624,
+      "sha256": "fb4bfd5935dbfc7646be81e36470d830328828640b3d44b28f101e9cdc236df1"
     },
     {
       "path": "assets/world-production/base-cargo.png",
       "bytes": 35893,
-      "gzip_bytes": 35907,
+      "gzip_bytes": 35904,
       "sha256": "cf6090b49e592da9077fb5b16d5520f0e757a70bf46e592d7378f61327cbcca0"
     },
     {
@@ -474,90 +474,90 @@
       "path": "assets/world-production/base-regulator.png",
       "bytes": 36687,
       "gzip_bytes": 36720,
-      "sha256": "e5233a8fbee201cf3689b03df664162d1b537ede6553d0d46bbfe1ec494cceaa"
+      "sha256": "d6fc131de0bdc877547d67e5c7601f94692ecffae8fd58bdb1a6031505e54c6a"
     },
     {
       "path": "assets/world-production/manifest.json",
       "bytes": 66904,
-      "gzip_bytes": 5588,
-      "sha256": "c80f3fed971998f7c7e80d93964c14d1e52642e4e52cf69b3256c6b072c489a9"
+      "gzip_bytes": 5547,
+      "sha256": "a401701db6001fd324f175f0c5f39681219bca7fbc325124b2849a719454f33e"
     },
     {
       "path": "assets/world-production/material-SW01.png",
       "bytes": 197,
-      "gzip_bytes": 211,
+      "gzip_bytes": 217,
       "sha256": "bcefe727470fa525db06b0a8642b25c32862cdd22a245878075786ac33747526"
     },
     {
       "path": "assets/world-production/material-SW02.png",
       "bytes": 191,
-      "gzip_bytes": 207,
+      "gzip_bytes": 214,
       "sha256": "1a8f018356b8b44c35903877f2ddabd95e419c9a4a73252f80134048e26dd983"
     },
     {
       "path": "assets/world-production/material-SW03.png",
       "bytes": 198,
-      "gzip_bytes": 212,
+      "gzip_bytes": 221,
       "sha256": "217fd202a8e30b6d7fd3f605a11af329f3e7849122c485bab43d2c2bcdde008f"
     },
     {
       "path": "assets/world-production/material-SW04.png",
       "bytes": 182,
-      "gzip_bytes": 196,
+      "gzip_bytes": 205,
       "sha256": "4111a735d41a3ad9843a2a0b736bf0096ef2ec05fc0112753bb116594c33ef71"
     },
     {
       "path": "assets/world-production/material-SW05.png",
       "bytes": 205,
-      "gzip_bytes": 218,
+      "gzip_bytes": 226,
       "sha256": "dab7854ee282d14a44af8172c8b195f1ae7de2459217a08de74cc68c9cb1306e"
     },
     {
       "path": "assets/world-production/material-YU01.png",
       "bytes": 184,
-      "gzip_bytes": 198,
+      "gzip_bytes": 207,
       "sha256": "ac71624e1881d920c443b3edb46541fe05ec27bb7337ecec476da14c59c02672"
     },
     {
       "path": "assets/world-production/material-YU02.png",
       "bytes": 182,
-      "gzip_bytes": 196,
+      "gzip_bytes": 205,
       "sha256": "41eaad8d42cd2c6b0345c66f81cfc0eee086966a5667343be0a0b4e4aa398aa1"
     },
     {
       "path": "assets/world-production/material-YU03.png",
       "bytes": 196,
-      "gzip_bytes": 211,
+      "gzip_bytes": 219,
       "sha256": "5b9baa1f172546274e4991b1533e681f68c65ac927b0fa61287e2ba166fb6175"
     },
     {
       "path": "assets/world-production/material-YU04.png",
       "bytes": 224,
-      "gzip_bytes": 241,
+      "gzip_bytes": 247,
       "sha256": "5f9177822941d1de667f84dee03a9944e30b062c7daf504d319c0b5335f6e332"
     },
     {
       "path": "assets/world-production/material-YU05.png",
       "bytes": 195,
-      "gzip_bytes": 210,
+      "gzip_bytes": 218,
       "sha256": "3f3ea26dc93ea4b725a7f3440040e416317df281b53ac76ee01676d4207ea909"
     },
     {
       "path": "assets/world-production/objects.json",
       "bytes": 30598,
-      "gzip_bytes": 1633,
+      "gzip_bytes": 1625,
       "sha256": "03fd9a76b0cfcc3578b0a60218be8c7d0676eb0e953fed26e8bca5c4f5906093"
     },
     {
       "path": "assets/world-production/objects.png",
-      "bytes": 594616,
-      "gzip_bytes": 593409,
-      "sha256": "177dc3f90b4ba44db736ad1c98b08ebe2aaee63c7bd3a20c3a3c880fbdfe4b68"
+      "bytes": 588565,
+      "gzip_bytes": 587546,
+      "sha256": "0ad6392aedc59db384dc5cabb316301b44b79af09d68c3281294fe0e54e175d7"
     },
     {
       "path": "assets/worlds/SW01.svg",
       "bytes": 1039,
-      "gzip_bytes": 324,
+      "gzip_bytes": 326,
       "sha256": "535137fcb68bf951ab865273180a6a0545b22dc1cda43b23022b55d2583af4fc"
     },
     {
@@ -569,7 +569,7 @@
     {
       "path": "assets/worlds/SW03.svg",
       "bytes": 1031,
-      "gzip_bytes": 315,
+      "gzip_bytes": 314,
       "sha256": "08b916de49050968407b2bc6a26991f90c3e96bf5e0aa0c72cc8a0acdf6bde7f"
     },
     {
@@ -581,7 +581,7 @@
     {
       "path": "assets/worlds/SW05.svg",
       "bytes": 1439,
-      "gzip_bytes": 325,
+      "gzip_bytes": 324,
       "sha256": "2ccde33709b0654db41342e7bc9ac2b14a5f1e8d23e9919d23dd289cd6868425"
     },
     {
@@ -593,7 +593,7 @@
     {
       "path": "assets/worlds/YU02.svg",
       "bytes": 1503,
-      "gzip_bytes": 324,
+      "gzip_bytes": 326,
       "sha256": "07c996a49adbab5572c498217df5c7c504efcd86fdaba249ecd5433c698a9242"
     },
     {
@@ -617,22 +617,22 @@
     {
       "path": "boot-guard.js",
       "bytes": 4317,
-      "gzip_bytes": 1900,
+      "gzip_bytes": 1939,
       "sha256": "0b66deb27bb00f9ef362317cf08b28dcb9e20ecfa9a66343257bf4b42a93fab5"
     },
     {
       "path": "game-analytics.js",
       "bytes": 3124,
-      "gzip_bytes": 1199,
+      "gzip_bytes": 1196,
       "sha256": "5cb2c06bdbad2286ad76429cac7356c25971b4a882bc3193edc6e5f589f09a80"
     },
     {
       "path": "index.html",
-      "bytes": 5668,
-      "gzip_bytes": 1988,
-      "sha256": "8061e7d168b437c30f89b6b4e56eea29a2f6012d345ace756d4138f15c91871c"
+      "bytes": 5703,
+      "gzip_bytes": 1986,
+      "sha256": "2ec650420585fb329cbb816888002b918a600c66e98ed91a6bb8c3ecd7b3a0d5"
     }
   ],
-  "total_bytes": 8137481,
-  "total_gzip_bytes": 5928579
+  "total_bytes": 8141966,
+  "total_gzip_bytes": 5968991
 }

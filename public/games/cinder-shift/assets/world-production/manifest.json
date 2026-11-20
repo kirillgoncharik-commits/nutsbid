@@ -36,7 +36,7 @@
   "atlas": {
     "file": "objects.png",
     "json": "objects.json",
-    "sha256": "177dc3f90b4ba44db736ad1c98b08ebe2aaee63c7bd3a20c3a3c880fbdfe4b68",
+    "sha256": "0ad6392aedc59db384dc5cabb316301b44b79af09d68c3281294fe0e54e175d7",
     "width": 1040,
     "height": 1872,
     "padding": 2
@@ -3390,7 +3390,7 @@
   "baseBackgrounds": {
     "airlock": {
       "file": "base-airlock.png",
-      "sha256": "3855fd6c3d969725a84ebecdd34e7a8fdcc240ee85d33e713961dce70ba40518",
+      "sha256": "339f0e0f59af68c39aa39fb4ec5ca6dd2312b2d92e75fabc6c1d05620bacf14e",
       "bytes": 36009
     },
     "cargo": {
@@ -3405,7 +3405,7 @@
     },
     "archive": {
       "file": "base-archive.png",
-      "sha256": "294fc15a09c6fbd2e405a022a8426f8c1344cff13a0d6252ab4cd62ce257040e",
+      "sha256": "fb4bfd5935dbfc7646be81e36470d830328828640b3d44b28f101e9cdc236df1",
       "bytes": 35591
     },
     "reactor": {
@@ -3415,7 +3415,7 @@
     },
     "regulator": {
       "file": "base-regulator.png",
-      "sha256": "e5233a8fbee201cf3689b03df664162d1b537ede6553d0d46bbfe1ec494cceaa",
+      "sha256": "d6fc131de0bdc877547d67e5c7601f94692ecffae8fd58bdb1a6031505e54c6a",
       "bytes": 36687
     }
   },
