@@ -2,14 +2,14 @@
   "version": "0.8.0-alpha.16",
   "release_id": "0.8.0-alpha.16",
   "milestone": "M-RW3",
-  "source_sha": "5078a1b9597ed7289e5545f5eac72196c105fd0c",
+  "source_sha": "ee77c965a463415a3cdd285135c08839c96021f2",
   "source_dirty": false,
-  "build_id": "local.20261120T235508659Z",
-  "built_at_utc": "2026-11-20T23:55:08.659Z",
+  "build_id": "local.20261121T071831332Z",
+  "built_at_utc": "2026-11-21T07:18:31.332Z",
   "channel": "local",
   "notes_id": "0.8.0-alpha.16",
   "game_id": "r01",
-  "gameplay_base_sha": "5078a1b9597ed7289e5545f5eac72196c105fd0c",
+  "gameplay_base_sha": "ee77c965a463415a3cdd285135c08839c96021f2",
   "target": "web",
   "platform_status": "local_candidate",
   "stage": "M-REWORK in progress: six-room Airlock, nine-room Reactor/Archive/Cargo, Foundry and Regulator; acceptance incomplete",
@@ -243,16 +243,22 @@
       "sha256": "3a06570e8ecac63c4be03652f21c28b9f3b210a8ac93a972fc6ab9dc50ee44a9"
     },
     {
-      "path": "assets/index-CE1URBl5.js",
-      "bytes": 1869154,
-      "gzip_bytes": 500901,
-      "sha256": "a7b698eee97e717bf597fef98dbff6b09b379557cc223a14af73046c1d00c9d6"
+      "path": "assets/final-guardians.png",
+      "bytes": 3087,
+      "gzip_bytes": 3076,
+      "sha256": "1f835d2c3dd5f13cd4d75b34c93952919fac16d77ee8e80dbc14578bc4d3192f"
     },
     {
-      "path": "assets/index-Cj2sj_JO.css",
-      "bytes": 66519,
-      "gzip_bytes": 13177,
-      "sha256": "eeabfa601677c621c1460e079910e7c96bf9159c6829d8d5e3530c7d1de20eb3"
+      "path": "assets/index-DeAoc5-s.js",
+      "bytes": 1873787,
+      "gzip_bytes": 502269,
+      "sha256": "9d4cebbf37cef46dc8426c708b74864fbef1352a9d8eba7c5eec3659c2010ca0"
+    },
+    {
+      "path": "assets/index-Kiuu0TME.css",
+      "bytes": 66778,
+      "gzip_bytes": 13251,
+      "sha256": "a05916b2f157100174147e5f76d33019bfe7d335cfa7c77e53c7fafca2f0c04b"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -629,10 +635,10 @@
     {
       "path": "index.html",
       "bytes": 5703,
-      "gzip_bytes": 1986,
-      "sha256": "2ec650420585fb329cbb816888002b918a600c66e98ed91a6bb8c3ecd7b3a0d5"
+      "gzip_bytes": 1983,
+      "sha256": "b7bdea02c290d37986513322edcf6a4c467969eb6d78ffad58f644a3a84b0d21"
     }
   ],
-  "total_bytes": 8141966,
-  "total_gzip_bytes": 5968991
+  "total_bytes": 8149945,
+  "total_gzip_bytes": 5973506
 }
