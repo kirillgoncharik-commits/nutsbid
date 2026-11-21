@@ -2,14 +2,14 @@
   "version": "0.8.0-alpha.16",
   "release_id": "0.8.0-alpha.16",
   "milestone": "M-RW3",
-  "source_sha": "ee77c965a463415a3cdd285135c08839c96021f2",
+  "source_sha": "02a70e7b56fadce94c2133acceb94abcdc4f6388",
   "source_dirty": false,
-  "build_id": "local.20261121T071831332Z",
-  "built_at_utc": "2026-11-21T07:18:31.332Z",
+  "build_id": "local.20261121T124635401Z",
+  "built_at_utc": "2026-11-21T12:46:35.401Z",
   "channel": "local",
   "notes_id": "0.8.0-alpha.16",
   "game_id": "r01",
-  "gameplay_base_sha": "ee77c965a463415a3cdd285135c08839c96021f2",
+  "gameplay_base_sha": "02a70e7b56fadce94c2133acceb94abcdc4f6388",
   "target": "web",
   "platform_status": "local_candidate",
   "stage": "M-REWORK in progress: six-room Airlock, nine-room Reactor/Archive/Cargo, Foundry and Regulator; acceptance incomplete",
@@ -249,16 +249,22 @@
       "sha256": "1f835d2c3dd5f13cd4d75b34c93952919fac16d77ee8e80dbc14578bc4d3192f"
     },
     {
-      "path": "assets/index-DeAoc5-s.js",
-      "bytes": 1873787,
-      "gzip_bytes": 502269,
-      "sha256": "9d4cebbf37cef46dc8426c708b74864fbef1352a9d8eba7c5eec3659c2010ca0"
+      "path": "assets/index-CVRyKtte.js",
+      "bytes": 1878903,
+      "gzip_bytes": 503819,
+      "sha256": "a1fd3b5eeba537011fd58a972843e8ea8fe60f3cd9df0e103992178c863fb3f3"
     },
     {
       "path": "assets/index-Kiuu0TME.css",
       "bytes": 66778,
       "gzip_bytes": 13251,
       "sha256": "a05916b2f157100174147e5f76d33019bfe7d335cfa7c77e53c7fafca2f0c04b"
+    },
+    {
+      "path": "assets/kitchen/steam-manifold.png",
+      "bytes": 2864,
+      "gzip_bytes": 2765,
+      "sha256": "4a92364af180d10caf34e28a23f1819aab0ac1e9be928fb5d137d9845e13ed05"
     },
     {
       "path": "assets/m03/architecture-a-f525a20314.png",
@@ -635,10 +641,10 @@
     {
       "path": "index.html",
       "bytes": 5703,
-      "gzip_bytes": 1983,
-      "sha256": "b7bdea02c290d37986513322edcf6a4c467969eb6d78ffad58f644a3a84b0d21"
+      "gzip_bytes": 1986,
+      "sha256": "529e5e601448f9dbad7bff5b883da7292d8df89835d1fd7a9accdc1aca2c19a4"
     }
   ],
-  "total_bytes": 8149945,
-  "total_gzip_bytes": 5973506
+  "total_bytes": 8157925,
+  "total_gzip_bytes": 5977824
 }
