@@ -1,15 +1,15 @@
 {
-  "version": "0.8.0-alpha.17",
-  "release_id": "0.8.0-alpha.17",
+  "version": "0.8.0-alpha.18",
+  "release_id": "0.8.0-alpha.18",
   "milestone": "M-RW3",
-  "source_sha": "73c894ac01b3d062412c5b6b0f1a66606586ee7f",
+  "source_sha": "a3ef976931c9564cb8768fbf021373b5eed9b2a8",
   "source_dirty": false,
-  "build_id": "local.20261126T094318197Z",
-  "built_at_utc": "2026-11-26T09:43:18.197Z",
+  "build_id": "local.20261126T132105653Z",
+  "built_at_utc": "2026-11-26T13:21:05.653Z",
   "channel": "local",
-  "notes_id": "0.8.0-alpha.17",
+  "notes_id": "0.8.0-alpha.18",
   "game_id": "r01",
-  "gameplay_base_sha": "73c894ac01b3d062412c5b6b0f1a66606586ee7f",
+  "gameplay_base_sha": "a3ef976931c9564cb8768fbf021373b5eed9b2a8",
   "target": "web",
   "platform_status": "local_candidate",
   "stage": "M-REWORK in progress: six-room Airlock, nine-room Reactor/Archive/Cargo, Foundry and Regulator; acceptance incomplete",
@@ -249,16 +249,16 @@
       "sha256": "1f835d2c3dd5f13cd4d75b34c93952919fac16d77ee8e80dbc14578bc4d3192f"
     },
     {
-      "path": "assets/index-BIZLsmu4.js",
-      "bytes": 1890376,
-      "gzip_bytes": 506998,
-      "sha256": "91b7362ee6aa2d05629670b0c62b9315fdb21361c2a9e7b3dfe24aa423bd2d14"
+      "path": "assets/index-CAy0aEP9.js",
+      "bytes": 1895101,
+      "gzip_bytes": 508080,
+      "sha256": "ed97585fcd111ab9738eca990a79cd2fa26bac80d4bf1b6b047e80703a41f9aa"
     },
     {
-      "path": "assets/index-D0YPhWGn.css",
-      "bytes": 67285,
-      "gzip_bytes": 13390,
-      "sha256": "e242021c7591c85f3f0bf7fa7b0dea920ec0dae6ab57dbd6ba1e3c110c5fcbb0"
+      "path": "assets/index-CYzLu_M4.css",
+      "bytes": 68065,
+      "gzip_bytes": 13530,
+      "sha256": "acbfd9427ed58a499d245b598442d03ecb2822ee805689d4a9959ec705eaa027"
     },
     {
       "path": "assets/kitchen/steam-manifold.png",
@@ -628,9 +628,9 @@
     },
     {
       "path": "boot-guard.js",
-      "bytes": 4294,
-      "gzip_bytes": 1920,
-      "sha256": "2b402815ff2207f7bb3335426fa97269d0a823ee79cfe8902eb531dff576fc0d"
+      "bytes": 4302,
+      "gzip_bytes": 1955,
+      "sha256": "e2c9e9c3e20d31e7e769df756190357e8a82b5cdedce5c0b0fe6caa1f815c16b"
     },
     {
       "path": "game-analytics.js",
@@ -640,11 +640,11 @@
     },
     {
       "path": "index.html",
-      "bytes": 5817,
-      "gzip_bytes": 2013,
-      "sha256": "770a6d568b28845b4bf076df938805a8727f14f2dad791aff2abb6c6045a73be"
+      "bytes": 5885,
+      "gzip_bytes": 2045,
+      "sha256": "92e2a24d192c842b88e82d5b311dd8ed45348a66fb07fad241f2e8e59ab55c95"
     }
   ],
-  "total_bytes": 8169996,
-  "total_gzip_bytes": 5981150
+  "total_bytes": 8175577,
+  "total_gzip_bytes": 5982439
 }
